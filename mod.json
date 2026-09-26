@@ -15,14 +15,14 @@
 		"name" : "Третий уровень улучшений",
 		"description" : "В каждом из девяти стандартных городов H3 у вас есть возможность улучшить существ еще раз. Мод основан на моде Third Upgrades Mod версии 2.17.0 для платформы ЭРА.",
 		"translations" : [
-			"translation/third-upgrades/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"chinese": {
 		"name": "二阶升级",
 		"description": "为原版9个派系的生物提供第二阶升级。该模组基于ERA的Third Upgrades Mod v2.17.0开发。",
 		"translations": [
-			"translation/third-upgrades/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"changelog" :
