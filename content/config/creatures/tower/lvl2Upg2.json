@@ -1,26 +1,21 @@
 {
-	"tumMarbleGargoyle":
-	{
-		"name" :
-		{
+	"tumMarbleGargoyle" : {
+		"name" : {
 			"plural" : "Marble Gargoyle",
 			"singular" : "Marble Gargoyle"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 22,
 			"min" : 16
 		},
 		"faction" : "tower",
 		"attack" : 9,
 		"defense" : 9,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 190
 		},
 		"growth" : 9,
@@ -30,61 +25,73 @@
 		"speed" : 10,
 		"fightValue" : 155,
 		"aiValue" : 201,
-		"graphics" :
-		{
-			"animation" : 	"creatures/tower/battle/Cr208",
-			"map" : 		"creatures/tower/map/AVWCR208",
-			"iconSmall" : 	"creatures/tower/iconsSmall/CPrs208X.bmp",
-			"iconLarge" : 	"creatures/tower/iconsBig/CPrL208X",
+		"graphics" : {
+			"animation" : "creatures/tower/battle/Cr208",
+			"map" : "creatures/tower/map/AVWCR208",
+			"iconSmall" : "creatures/tower/iconsSmall/CPrs208X.bmp",
+			"iconLarge" : "creatures/tower/iconsBig/CPrL208X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "OGRGATTK.wav",
-			"defend": "OGRGDFND.wav",
-			"killed": "OGRGKILL.wav",
-			"move": "OGRGMOVE.wav",
-			"wince": "OGRGWNCE.wav"
+		"sound" : {
+			"attack" : "OGRGATTK.wav",
+			"defend" : "OGRGDFND.wav",
+			"killed" : "OGRGKILL.wav",
+			"move" : "OGRGMOVE.wav",
+			"wince" : "OGRGWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"nonliving" :
-			{
+			"nonliving" : {
 				"type" : "GARGOYLE"
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE" //check combo gorgoyle + no morale
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTER",
 					"subtype" : "spell.stoneSkin",
 					"addInfo" : 3
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}

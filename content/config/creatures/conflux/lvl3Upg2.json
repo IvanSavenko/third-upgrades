@@ -1,5 +1,5 @@
 {
-	"tumLifeElemental": {
+	"tumLifeElemental" : {
 		"name" : {
 			"singular" : "Cryogenic Elemental",
 			"plural" : "Cryogenic Elementals"
@@ -46,12 +46,12 @@
 			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
-			},	
+			},
 			"hpRegen" : {
 				"type" : "HP_REGENERATION",
 				"val" : 100000,
 				"valueType" : "ADDITIVE_VALUE"
-			},			
+			},
 			"spellcaster" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.protectWater",
@@ -70,7 +70,10 @@
 				"type" : "SPELL_BEFORE_ATTACK",
 				"val" : 30,
 				"subtype" : "spell.iceBolt",
-				"addInfo" : [1, 1]
+				"addInfo" : [
+					1,
+					1
+				]
 			},
 			"fireShieldVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
@@ -100,7 +103,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/conflux/battle/CR248",
-			"map" : 	  "creatures/conflux/map/AVWCR248",
+			"map" : "creatures/conflux/map/AVWCR248",
 			"iconSmall" : "creatures/conflux/iconsSmall/CPrS248X",
 			"iconLarge" : "creatures/conflux/iconsBig/CPrL248X",
 			"animationTime" : {
@@ -132,9 +135,9 @@
 					"middleY" : -99,
 					"upperX" : 28,
 					"upperY" : -107
-				},
+				}
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "ICELATTK.wav",

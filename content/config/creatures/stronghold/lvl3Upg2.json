@@ -1,25 +1,20 @@
 {
-	"tumOrcLeader" :
-	{
-		"name" : 
-		{
+	"tumOrcLeader" : {
+		"name" : {
 			"plural" : "Orc Leaders",
 			"singular" : "Orc Leader"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 17,
 			"min" : 12
 		},
 		"faction" : "stronghold",
 		"attack" : 10,
 		"defense" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 210
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 3
 		},
@@ -30,25 +25,21 @@
 		"level" : 3,
 		"fightValue" : 260,
 		"aiValue" : 312,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/stronghold/battle/CR234",
-			"map" : 	  "creatures/stronghold/map/AVWCR234",
+			"map" : "creatures/stronghold/map/AVWCR234",
 			"iconSmall" : "creatures/stronghold/iconsSmall/CPrS234X",
 			"iconLarge" : "creatures/stronghold/iconsBig/CPrL234X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
-				"projectile": "PORCHX.DEF",
+			"missile" : {
+				"projectile" : "PORCHX.DEF",
 				"attackClimaxFrame" : 9,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,75 +47,97 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "ORCCATTK.wav",
-			"defend": "ORCCDFND.wav",
-			"killed": "ORCCKILL.wav",
-			"move": "ORCCMOVE.wav",
-			"shoot": "ORCCSHOT.wav",
-			"wince": "ORCCWNCE.wav"
+		"sound" : {
+			"attack" : "ORCCATTK.wav",
+			"defend" : "ORCCDFND.wav",
+			"killed" : "ORCCKILL.wav",
+			"move" : "ORCCMOVE.wav",
+			"shoot" : "ORCCSHOT.wav",
+			"wince" : "ORCCWNCE.wav"
 		},
-		"abilities":
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"extraAttack" :
-			{
+			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"precision" :
-			{
+			"precision" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.precision", //czy presision nie jest podobne do no melee penalty?
 				"val" : 2
 			},
-			"hateWoodElf" :
-			{
+			"hateWoodElf" : {
 				"type" : "HATE",
 				"subtype" : "creature.woodElf",
 				"val" : 50
 			},
-			"hateGrandElf" :
-			{
+			"hateGrandElf" : {
 				"type" : "HATE",
 				"subtype" : "creature.grandElf",
 				"val" : 50
 			},
-			"hateSharpshooterElf" :
-			{
+			"hateSharpshooterElf" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumSharpshooterElf",
 				"val" : 50
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [0, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+				"values" : [
+					0,
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
-	
 }

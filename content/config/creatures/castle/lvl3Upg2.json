@@ -1,25 +1,20 @@
 {
-	"tumCeasarGriffin":
-	{
-		"name" :
-		{
+	"tumCeasarGriffin" : {
+		"name" : {
 			"plural" : "Cesar Griffins",
 			"singular" : "Cesar Griffin"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 17,
 			"min" : 12
 		},
 		"faction" : "castle",
 		"attack" : 9,
 		"defense" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 280
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 6,
 			"min" : 4
 		},
@@ -30,60 +25,72 @@
 		"level" : 3,
 		"fightValue" : 491,
 		"aiValue" : 675,
-		"graphics" :
-		{
-			"animation" : 	"creatures/castle/battle/cr199",
-			"map" : 		"creatures/castle/map/AVWCR199",
-			"iconSmall" : 	"creatures/castle/iconsSmall/CPrS199X",
-			"iconLarge" : 	"creatures/castle/iconsBig/CPrL199X",
+		"graphics" : {
+			"animation" : "creatures/castle/battle/cr199",
+			"map" : "creatures/castle/map/AVWCR199",
+			"iconSmall" : "creatures/castle/iconsSmall/CPrS199X",
+			"iconLarge" : "creatures/castle/iconsBig/CPrL199X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "RGRFATTK.wav",
-			"defend": "RGRFDFND.wav",
-			"killed": "RGRFKILL.wav",
-			"move":   "RGRFMOVE.wav",
-			"wince":  "RGRFWNCE.wav"
+		"sound" : {
+			"attack" : "RGRFATTK.wav",
+			"defend" : "RGRFDFND.wav",
+			"killed" : "RGRFKILL.wav",
+			"move" : "RGRFMOVE.wav",
+			"wince" : "RGRFWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"unlimitedRetaliation" :
-			{
+			"unlimitedRetaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"fearless" : 
-			{
+			"fearless" : {
 				"type" : "FEARLESS"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "BLOCKS_RETALIATION"
 				},
-				"values" : [false, false, false, true, true, true, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}
-}	
+}

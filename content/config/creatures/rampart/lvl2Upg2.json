@@ -1,21 +1,17 @@
 {
-	"tumBerserkerDwarf" :
-	{
-		"name" : 
-		{
+	"tumBerserkerDwarf" : {
+		"name" : {
 			"plural" : "Dwarf Chieftains",
 			"singular" : "Dwarf Chieftain"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 22,
 			"min" : 16
 		},
 		"faction" : "rampart",
 		"attack" : 8,
 		"defense" : 8,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 3
 		},
@@ -24,73 +20,95 @@
 		"horde" : 4,
 		"level" : 2,
 		"speed" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 190
 		},
 		"fightValue" : 274,
 		"aiValue" : 274,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/rampart/battle/cr203",
-			"map" : 	  "creatures/rampart/map/AVWCR203",
+			"map" : "creatures/rampart/map/AVWCR203",
 			"iconSmall" : "creatures/rampart/iconsSmall/CPrS203X",
 			"iconLarge" : "creatures/rampart/iconsBig/CPrL203X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "BDRFATTK.wav",
-			"defend": "BDRFDFND.wav",
-			"killed": "BDRFKILL.wav",
-			"move": "BDRFMOVE.wav",
-			"wince": "BDRFWNCE.wav"
+		"sound" : {
+			"attack" : "BDRFATTK.wav",
+			"defend" : "BDRFDFND.wav",
+			"killed" : "BDRFKILL.wav",
+			"move" : "BDRFMOVE.wav",
+			"wince" : "BDRFWNCE.wav"
 		},
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 60
 			},
-			"bloodlust" :
-			{
+			"bloodlust" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.bloodlust",
 				"val" : 1
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			},
 			{
-				"bonus" :
-				{
-				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : "damageTypeMelee",
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeMelee"
 				},
-				"values" : [0, 0, 2, 6, 10, 14, 18, 22, 26, 30]
+				"values" : [
+					0,
+					0,
+					2,
+					6,
+					10,
+					14,
+					18,
+					22,
+					26,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
-		]	
+		]
 	}
 }

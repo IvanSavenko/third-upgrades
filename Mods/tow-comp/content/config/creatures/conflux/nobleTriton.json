@@ -1,180 +1,264 @@
 {
-	"tides-of-war.alternative-creatures:mdtAbyssalTriton":
-	{
-		"upgrades"	: [ "mdtNobleTriton" ]
+	"tides-of-war.alternative-creatures:mdtAbyssalTriton" : {
+		"upgrades" : [
+			"mdtNobleTriton"
+		]
 	},
-	"mdtNobleTriton":
-	{
-		"name" :
-		{
+	"mdtNobleTriton" : {
+		"name" : {
 			"plural" : "Noble Tritons",
 			"singular" : "Noble Triton"
 		},
-		"faction" : "conflux",		
-		"advMapAmount" :
-		{
-			 "min" : 12,
-			 "max" : 20
+		"faction" : "conflux",
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
 		},
-		"level" : 3, 
+		"level" : 3,
 		"attack" : 11,
 		"defense" : 7,
-		"damage" :
-		{
-			 "min" : 4,
-			 "max" : 6
+		"damage" : {
+			"min" : 4,
+			"max" : 6
 		},
-		"growth" : 6, 
+		"growth" : 6,
 		"hitPoints" : 25,
-		"speed" : 8, 
+		"speed" : 8,
 		"fightValue" : 437,
 		"aiValue" : 424,
-		"cost" :
-		{
-			"gold" : 250 
+		"cost" : {
+			"gold" : 250
 		},
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"doubleWide" : false,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/conflux/nobleTriton.def",
 			"map" : "creatures/conflux/mapNobleTriton.def",
 			"iconSmall" : "creatures/conflux/nobletritonSmall.bmp",
 			"iconLarge" : "creatures/conflux/nobleTritonBig.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.9,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "creatures/conflux/triton/TRITATTACK.wav",
-			"defend": "creatures/conflux/triton/TRITDFND.wav", 
-			"killed": "creatures/conflux/triton/TRITDEAD.wav", 
-			"move": "creatures/conflux/triton/TRITMOVE.wav", 
-			"wince": "creatures/conflux/triton/TRITHIT.wav" 
-        },
-		"abilities" :
-		{
-			"castsBloodlust" :
-			{
+		"sound" : {
+			"attack" : "creatures/conflux/triton/TRITATTACK.wav",
+			"defend" : "creatures/conflux/triton/TRITDFND.wav",
+			"killed" : "creatures/conflux/triton/TRITDEAD.wav",
+			"move" : "creatures/conflux/triton/TRITMOVE.wav",
+			"wince" : "creatures/conflux/triton/TRITHIT.wav"
+		},
+		"abilities" : {
+			"castsBloodlust" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.mdtTrawl",
 				"val" : 2
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
 			},
-			"immuneToWater" :
-			{
+			"immuneToWater" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.water",
 				"val" : 100
 			},
-			"doubleStrike" :
-			{
+			"doubleStrike" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"doubleDefend" :
-			{
+			"doubleDefend" : {
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 1
 			},
-			"immuneBloodlust" :
-			{
+			"immuneBloodlust" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.mdtTrawl"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.protectFire"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.bless"
 				},
-				"values" : [ 0, 0, 1, 1, 2, 2, 2, 3, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}

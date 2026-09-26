@@ -1,16 +1,15 @@
 {
-	"centaurArcher" :
-	{
-		"name" :
-		{
+	"centaurArcher" : {
+		"name" : {
 			"singular" : "Centaur Archer",
 			"plural" : "Centaur Archers"
 		},
 		"faction" : "rampart",
-		"upgrades" : [ "sylvanCentaur" ],
+		"upgrades" : [
+			"sylvanCentaur"
+		],
 		"level" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 210
 		},
 		"doubleWide" : true,
@@ -19,53 +18,44 @@
 		"shots" : 24,
 		"attack" : 9,
 		"defense" : 5,
-		"damage" :
-		{
-			 "min" : 3,
-			 "max" : 6
+		"damage" : {
+			"min" : 3,
+			"max" : 6
 		},
 		"fightValue" : 190,
 		"aiValue" : 220,
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 15
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 15
 		},
 		"growth" : 7,
 		"hasDoubleWeek" : false,
-		"abilities" :
-		{
-			"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"spellMirth" :
-			{
+			"spellMirth" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.mirth",
 				"val" : 1,
-				"addInfo" : 3 
+				"addInfo" : 3
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/centaurArcher/centaurArcher",
 			"map" : "creatures/centaurArcher/centaurArcher_map",
 			"iconSmall" : "creatures/centaurArcher/centaurArcher_s",
 			"iconLarge" : "creatures/centaurArcher/centaurArcher_b",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.5,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "creatures/centaurArcher/CAPROJ",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 10,
 					"upperY" : -70,
 					"middleX" : 10,
@@ -73,11 +63,23 @@
 					"lowerX" : 10,
 					"lowerY" : -70
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ECNTATTK.wav",
 			"defend" : "ECNTDFND.wav",
 			"killed" : "ECNTKILL.wav",
@@ -86,27 +88,22 @@
 			"wince" : "ECNTWNCE.wav"
 		}
 	},
-	"wake-of-gods.creatures:sylvanCentaur" :
-	{
-		"graphics" :
-		{
+	"wake-of-gods.creatures:sylvanCentaur" : {
+		"graphics" : {
 			"animation" : "creatures/centaurArcher/centaurCaptain",
 			"map" : "creatures/centaurArcher/centaurCaptain_map",
 			"iconSmall" : "creatures/centaurArcher/centaurCaptain_s",
 			"iconLarge" : "creatures/centaurArcher/centaurCaptain_b",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.5,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "creatures/centaurArcher/CAPROJ",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 10,
 					"upperY" : -70,
 					"middleX" : 10,
@@ -114,7 +111,20 @@
 					"lowerX" : 10,
 					"lowerY" : -70
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		}
 	}

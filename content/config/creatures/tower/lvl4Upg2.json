@@ -1,5 +1,5 @@
 {
-	"tumSupremeArchMage": {
+	"tumSupremeArchMage" : {
 		"name" : {
 			"singular" : "Supreme Arch Mage",
 			"plural" : "Supreme Arch Magi"
@@ -39,31 +39,37 @@
 				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
 				"val" : 2
 			},
-			"weakness" :
-			{
+			"weakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 20,
-				"addInfo" : [0,1]
+				"addInfo" : [
+					0,
+					1
+				]
 			},
-			"deasease" :
-			{
+			"deasease" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disease",
 				"val" : 20,
-				"addInfo" : [0,1]
+				"addInfo" : [
+					0,
+					1
+				]
 			},
-			"curse" :
-			{
+			"curse" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 20,
-				"addInfo" : [0,1]
+				"addInfo" : [
+					0,
+					1
+				]
 			}
 		},
 		"graphics" : {
 			"animation" : "creatures/tower/battle/CR257",
-			"map" : 	  "creatures/tower/map/AVWCR257",
+			"map" : "creatures/tower/map/AVWCR257",
 			"iconSmall" : "creatures/tower/iconsSmall/CPrs257X",
 			"iconLarge" : "creatures/tower/iconsBig/CPrL257X",
 			"animationTime" : {
@@ -74,7 +80,20 @@
 			"missile" : {
 				"projectile" : "PMAGEX.DEF",
 				"attackClimaxFrame" : 8,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
 				"offset" : {
 					"lowerX" : 18,
 					"lowerY" : -92,
@@ -156,7 +175,7 @@
 					}
 				]
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "AMAGATTK.wav",

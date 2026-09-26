@@ -1,25 +1,20 @@
 {
-	"tumMonstrousEye":
-	{
-		"name" :
-		{
+	"tumMonstrousEye" : {
+		"name" : {
 			"plural" : "Monstrous Eyes",
 			"singular" : "Monstrous Eye"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 17,
 			"min" : 12
 		},
 		"faction" : "dungeon",
 		"attack" : 12,
 		"defense" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 330
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 3
 		},
@@ -30,32 +25,92 @@
 		"shots" : 24,
 		"fightValue" : 291,
 		"aiValue" : 292,
-		"graphics" :
-		{
-			"animation" : 	"creatures/dungeon/battle/CR226",
-			"map" : 		"creatures/dungeon/map/AVWCR226",
-			"iconSmall" : 	"creatures/dungeon/iconsSmall/CPrS226X",
-			"iconLarge" : 	"creatures/dungeon/iconsBig/CPrL226X",
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/CR226",
+			"map" : "creatures/dungeon/map/AVWCR226",
+			"iconSmall" : "creatures/dungeon/iconsSmall/CPrS226X",
+			"iconLarge" : "creatures/dungeon/iconsBig/CPrL226X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
-				"ray" :
-				[
-					{ "start" : [ 160, 160, 160, 255 ], "end" : [ 160, 160, 160,  64 ] },
-					{ "start" : [ 192, 192, 192, 255 ], "end" : [ 192, 192, 192, 128 ] },
-					{ "start" : [ 224, 224, 224, 255 ], "end" : [ 224, 224, 224, 255 ] },
-					{ "start" : [ 192, 192, 192, 255 ], "end" : [ 192, 192, 192, 128 ] },
-					{ "start" : [ 160, 160, 160, 255 ], "end" : [ 160, 160, 160,  64 ] }
+			"missile" : {
+				"ray" : [
+					{
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						],
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						]
+					},
+					{
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						],
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						]
+					},
+					{
+						"start" : [
+							224,
+							224,
+							224,
+							255
+						],
+						"end" : [
+							224,
+							224,
+							224,
+							255
+						]
+					},
+					{
+						"start" : [
+							192,
+							192,
+							192,
+							255
+						],
+						"end" : [
+							192,
+							192,
+							192,
+							128
+						]
+					},
+					{
+						"start" : [
+							160,
+							160,
+							160,
+							255
+						],
+						"end" : [
+							160,
+							160,
+							160,
+							64
+						]
+					}
 				],
 				"attackClimaxFrame" : 9,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -63,109 +118,141 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "EVLIATTK.wav",
-			"defend": "EVLIDFND.wav",
-			"killed": "EVLIKILL.wav",
-			"move": "EVLIMOVE.wav",
-			"shoot": "EVLISHOT.wav",
-			"wince": "EVLIWNCE.wav"
+		"sound" : {
+			"attack" : "EVLIATTK.wav",
+			"defend" : "EVLIDFND.wav",
+			"killed" : "EVLIKILL.wav",
+			"move" : "EVLIMOVE.wav",
+			"shoot" : "EVLISHOT.wav",
+			"wince" : "EVLIWNCE.wav"
 		},
-		"abilities":
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"extraAttack" :
-			{
-				"type": "ADDITIONAL_ATTACK",
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"noPenalty" : 
-			{
+			"noPenalty" : {
 				"type" : "NO_WALL_PENALTY" //sprawdzić
 			},
-			"noDefaultCast" : 
-			{
+			"noDefaultCast" : {
 				"type" : "NO_SPELLCAST_BY_DEFAULT"
 			},
-			"noMeleePenalty" : 
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"castsHypnotize" :
-			{
+			"castsHypnotize" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.hypnotize",
 				"val" : 1,
 				"addInfo" : 100,
 				"turns" : 3
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"spellpower" : 
-			{ 
-				"type" : "CREATURE_SPELL_POWER", 
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"visionsMonsters" :
-			{
+			"visionsMonsters" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsMonsters",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
-			"visionsHeroes" :
-			{
+			"visionsHeroes" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsHeroes",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"				
+				"propagator" : "HERO"
 			},
-			"visionsTowns" :
-			{
+			"visionsTowns" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsTowns",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"				
+				"propagator" : "HERO"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.weakness",
-					"addInfo" : [2, 1]
+					"addInfo" : [
+						2,
+						1
+					]
 				},
-				"values" : [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MIND_IMMUNITY"
 				},
-				"values" : [false, false, true, true, true, true, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}
-}	
+}

@@ -1,5 +1,5 @@
 {
-	"tumPhosphorescentTroglodyte": {
+	"tumPhosphorescentTroglodyte" : {
 		"name" : {
 			"singular" : "Phosphorescent Troglodyte",
 			"plural" : "Phosphorescent Troglodytes"
@@ -44,20 +44,17 @@
 			"fearless" : {
 				"type" : "FEARLESS"
 			},
-			"hatePixie" : 
-			{
+			"hatePixie" : {
 				"type" : "HATE",
 				"subtype" : "creature.pixie",
 				"val" : 50
 			},
-			"hateSprite" : 
-			{
+			"hateSprite" : {
 				"type" : "HATE",
 				"subtype" : "creature.sprite",
 				"val" : 50
 			},
-			"hateFairy" : 
-			{
+			"hateFairy" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumFairy",
 				"val" : 50
@@ -65,7 +62,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/dungeon/battle/CR225",
-			"map" : 	  "creatures/dungeon/map/AVWCR225",
+			"map" : "creatures/dungeon/map/AVWCR225",
 			"iconSmall" : "creatures/dungeon/iconsSmall/CPrS225X",
 			"iconLarge" : "creatures/dungeon/iconsBig/CPrL225X",
 			"animationTime" : {

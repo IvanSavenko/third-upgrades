@@ -1,30 +1,37 @@
 {
-	"core:sprite" :
-	{
-		"upgrades": ["tumFairy"]
-	},	
-	"core:stormElemental" :
-	{
-		"upgrades": ["tumHurricaneElemental"]
+	"core:sprite" : {
+		"upgrades" : [
+			"tumFairy"
+		]
 	},
-	"core:iceElemental" :
-	{
-		"upgrades": ["tumLifeElemental"]
+	"core:stormElemental" : {
+		"upgrades" : [
+			"tumHurricaneElemental"
+		]
 	},
-	"core:energyElemental" :
-	{
-		"upgrades": ["tumPlasmaElemental"]
+	"core:iceElemental" : {
+		"upgrades" : [
+			"tumLifeElemental"
+		]
 	},
-	"core:magmaElemental" :
-	{
-		"upgrades": ["tumMineralElemental"]
+	"core:energyElemental" : {
+		"upgrades" : [
+			"tumPlasmaElemental"
+		]
 	},
-	"core:magicElemental" :
-	{
-		"upgrades": ["tumVoidElemental"]
+	"core:magmaElemental" : {
+		"upgrades" : [
+			"tumMineralElemental"
+		]
 	},
-	"core:phoenix" :
-	{	
-		"upgrades": ["sacredPhoenix"]
+	"core:magicElemental" : {
+		"upgrades" : [
+			"tumVoidElemental"
+		]
+	},
+	"core:phoenix" : {
+		"upgrades" : [
+			"sacredPhoenix"
+		]
 	}
 }

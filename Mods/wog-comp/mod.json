@@ -4,25 +4,20 @@
 	"author" : "Olegmods.INC, Aphra, yogdush",
 	"contact" : "Olegmods.INC on Discord",
 	"version" : "1.0.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"modType" : "Compatibility",	
-	"creatures" :
-	[
+	"modType" : "Compatibility",
+	"creatures" : [
 		"config/creatures/centaurArcher"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/dwellings/sylvanStables"
 	],
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.creatures"
 	],
-	"softDepends" :
-	[
+	"softDepends" : [
 		"wake-of-gods.woggraphicfix.wf_creatures"
 	]
 }

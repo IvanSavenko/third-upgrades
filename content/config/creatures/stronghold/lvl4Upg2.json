@@ -1,25 +1,20 @@
 {
-	"tumElderOgre" :
-	{
-		"name" : 
-		{
+	"tumElderOgre" : {
+		"name" : {
 			"plural" : "Elder Ogres",
 			"singular" : "Elder Ogre"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 14,
 			"min" : 10
 		},
 		"faction" : "stronghold",
 		"attack" : 15,
-		"defense" : 8,		
-		"cost" :
-		{
+		"defense" : 8,
+		"cost" : {
 			"gold" : 640
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 12,
 			"min" : 9
 		},
@@ -29,65 +24,76 @@
 		"level" : 4,
 		"fightValue" : 873,
 		"aiValue" : 873,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/stronghold/battle/CR235",
-			"map"       : "creatures/stronghold/map/AVWCR235",
+			"map" : "creatures/stronghold/map/AVWCR235",
 			"iconSmall" : "creatures/stronghold/iconsSmall/CPrS235X",
 			"iconLarge" : "creatures/stronghold/iconsBig/CPrL235X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "creatures/stronghold/ogreMagic/OgreMattack.wav",
-			"defend": "creatures/stronghold/ogreMagic/OgreMaware.wav",
-			"killed": "creatures/stronghold/ogreMagic/OgreMdeath.wav",
-			"move": "OGRMMOVE.wav",
-			"shoot": "OGRMSHOT.wav",
-			"wince": "creatures/stronghold/ogreMagic/OgreMwince.wav"
+		"sound" : {
+			"attack" : "creatures/stronghold/ogreMagic/OgreMattack.wav",
+			"defend" : "creatures/stronghold/ogreMagic/OgreMaware.wav",
+			"killed" : "creatures/stronghold/ogreMagic/OgreMdeath.wav",
+			"move" : "OGRMMOVE.wav",
+			"shoot" : "OGRMSHOT.wav",
+			"wince" : "creatures/stronghold/ogreMagic/OgreMwince.wav"
 		},
-		"abilities":
-		{
-			"castsBloodlust" :
-			{
+		"abilities" : {
+			"castsBloodlust" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.frenzy",
 				"val" : 3
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 50
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
-					"type" : "DOUBLE_DAMAGE_CHANCE",
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values" : [0, 0, 4, 8, 12, 16, 20, 24, 28, 35]
+				"values" : [
+					0,
+					0,
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					35
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
-	
 }

@@ -1,25 +1,20 @@
 {
-	"tumCyclopsEmperor" :
-	{
-		"name" : 
-		{
+	"tumCyclopsEmperor" : {
+		"name" : {
 			"plural" : "Cyclops Emperors",
 			"singular" : "Cyclops Emperor"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 6,
 			"min" : 5
 		},
 		"faction" : "stronghold",
 		"attack" : 20,
 		"defense" : 15,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1500
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 18
 		},
@@ -30,25 +25,21 @@
 		"level" : 6,
 		"fightValue" : 1230,
 		"aiValue" : 1521,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/stronghold/battle/CR237",
-			"map" : 	  "creatures/stronghold/map/AVWCR237",
+			"map" : "creatures/stronghold/map/AVWCR237",
 			"iconSmall" : "creatures/stronghold/iconsSmall/CPrS237X",
 			"iconLarge" : "creatures/stronghold/iconsBig/CPrL237X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
-				"projectile": "PORCHX.DEF",
+			"missile" : {
+				"projectile" : "PORCHX.DEF",
 				"attackClimaxFrame" : 9,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,20 +47,31 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "ORCCATTK.wav",
-			"defend": "ORCCDFND.wav",
-			"killed": "ORCCKILL.wav",
-			"move": "ORCCMOVE.wav",
-			"shoot": "ORCCSHOT.wav",
-			"wince": "ORCCWNCE.wav"
+		"sound" : {
+			"attack" : "ORCCATTK.wav",
+			"defend" : "ORCCDFND.wav",
+			"killed" : "ORCCKILL.wav",
+			"move" : "ORCCMOVE.wav",
+			"shoot" : "ORCCSHOT.wav",
+			"wince" : "ORCCWNCE.wav"
 		},
-		"abilities":
-		{
+		"abilities" : {
 			"shooter" : {
 				"type" : "SHOOTER"
 			},
@@ -77,36 +79,52 @@
 				"subtype" : "spell.cyclopsShot",
 				"type" : "CATAPULT"
 			},
-			"siegeLevel" :
-			{
+			"siegeLevel" : {
 				"subtype" : "spell.cyclopsShot",
 				"type" : "CATAPULT_EXTRA_SHOTS",
 				"valueType" : "BASE_NUMBER",
 				"val" : 1
 			},
-			"siegeDoubleAttack" :
-			{
+			"siegeDoubleAttack" : {
 				"type" : "CATAPULT_EXTRA_SHOTS", //to wystarczy?
 				"val" : 1
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [0, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+				"values" : [
+					0,
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
-	
 }

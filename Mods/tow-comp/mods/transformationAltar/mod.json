@@ -7,13 +7,16 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.5.0"
 	},
-	"depends" : [ "third-upgrades" , "tides-of-war.alternative-creatures", "tides-of-war.transformationAltar", "wake-of-gods.level8units" ],
-	"objects" :
-	[
+	"depends" : [
+		"third-upgrades",
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.transformationAltar",
+		"wake-of-gods.level8units"
+	],
+	"objects" : [
 		"config/objects/altarcpatch"
 	]
 }

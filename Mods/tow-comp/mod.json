@@ -7,21 +7,19 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Compatibility",
 	"version" : "1.0.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.5.0"
 	},
-	"changelog" :
-    {
-		"1.0.0"   : [ "Initial release" ]
-    },	
-	"depends" :
-	[
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [
 		"wake-of-gods.level8units",
 		"tides-of-war.alternative-creatures"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/creatures/necropolis/spiritWerewolf",
 		"config/creatures/fortress/trollHexer",
 		"config/creatures/rampart/forestDryad",
@@ -32,16 +30,13 @@
 		"config/creatures/dungeon/illithilich",
 		"config/creatures/stronghold/darkQuetzalcouatl"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/spells/symbiosis3"
 	],
-	"heroes" :
-	[
+	"heroes" : [
 		"config/heroes/tow_heroes"
 	],
-	"factions" :
-	[
+	"factions" : [
 		"config/town-screen/necropolis/factions",
 		"config/town-screen/fortress/factions",
 		"config/town-screen/rampart/factions",

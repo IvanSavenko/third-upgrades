@@ -1,72 +1,94 @@
 {
 	"tides-of-war.alternative-creatures:mdtTrollWitch" : {
-		"upgrades": ["mdtRedTrollWitch"]
+		"upgrades" : [
+			"mdtRedTrollWitch"
+		]
 	},
 	"mdtRedTrollWitch" : {
 		"abilities" : {
-			"canShoot" : 
-			{ 
-				"type" : "SHOOTER" 
+			"canShoot" : {
+				"type" : "SHOOTER"
 			},
-			"regeneration" :
-			{
+			"regeneration" : {
 				"type" : "HP_REGENERATION",
 				"val" : 15
 			},
-			"noMeleePenalty" :
-			{
-			"type" : "NO_MELEE_PENALTY"		
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
 			},
-			"spellAfterAttack" :
-			{
+			"spellAfterAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.slow",
 				"val" : 100, //100% chance
-				"addInfo" : [2,1] //only shooting
+				"addInfo" : [
+					2,
+					1
+				] //only shooting
 			},
-			"castsPoison" :
-			{
+			"castsPoison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 50,
-				"addInfo" : [1,1] //only in melee
+				"addInfo" : [
+					1,
+					1
+				] //only in melee
 			},
-			"slowStrength" :
-			{
+			"slowStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.slow",
 				"val" : 3
 			},
-			"doubleStrike" :
-			{
+			"doubleStrike" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"acid":
-			{
+			"acid" : {
 				"type" : "ACID_BREATH",
 				"addInfo" : 15,
 				"val" : 20
 			}
-		},	
-		"advMapAmount" : {"max" : 12, "min" : 8},
+		},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
 		"aiValue" : 1809,
 		"shots" : 10,
 		"attack" : 15,
-		"cost" : { "gold" : 760 },
-		"damage" : {"max" : 15, "min" : 12},
+		"cost" : {
+			"gold" : 760
+		},
+		"damage" : {
+			"max" : 15,
+			"min" : 12
+		},
 		"defense" : 14,
 		"faction" : "fortress",
 		"fightValue" : 1732,
 		"graphics" : {
 			"animation" : "creatures/fortress/trollRedWitch.def",
-			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 10,
+				"walk" : 1.5
+			},
 			"iconLarge" : "creatures/fortress/RedtrollWitchBig.png",
 			"iconSmall" : "creatures/fortress/RedtrollWitchSmall.png",
 			"map" : "creatures/fortress/mapRTrollWitch.def",
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 12,
 					"lowerY" : -24,
@@ -81,9 +103,12 @@
 		},
 		"growth" : 3,
 		"hitPoints" : 46,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 5,
-		"name" : { "plural" : "Troll Hexers", "singular" : "Troll Hexer" },
+		"name" : {
+			"plural" : "Troll Hexers",
+			"singular" : "Troll Hexer"
+		},
 		"sound" : {
 			"attack" : "creatures/fortress/trollWitch/WTCHATTK.wav",
 			"defend" : "creatures/fortress/trollWitch/WTCHDFND.wav",
@@ -93,77 +118,169 @@
 			"wince" : "creatures/fortress/trollWitch/WTCHWNCE.wav"
 		},
 		"speed" : 7,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.poison",
-					"addInfo" : [3, 2]
+					"addInfo" : [
+						3,
+						2
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}

@@ -1,25 +1,20 @@
 {
-	"tumCatopleba":
-	{
-		"name" :
-		{
+	"tumCatopleba" : {
+		"name" : {
 			"plural" : "Catoblepas",
 			"singular" : "Catopleba"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 8
 		},
 		"faction" : "fortress",
 		"attack" : 16,
 		"defense" : 20,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 800
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 16,
 			"min" : 13
 		},
@@ -29,82 +24,117 @@
 		"speed" : 8,
 		"fightValue" : 1439,
 		"aiValue" : 1439,
-		"graphics" :
-		{
-			"animation" : 	"creatures/fortress/battle/CR244",
-			"map" : 		"creatures/fortress/map/AVWCR244",
-			"iconSmall" : 	"creatures/fortress/iconsSmall/CPrS244X",
-			"iconLarge" : 	"creatures/fortress/iconsBig/CPrL244X",
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/CR244",
+			"map" : "creatures/fortress/map/AVWCR244",
+			"iconSmall" : "creatures/fortress/iconsSmall/CPrS244X",
+			"iconLarge" : "creatures/fortress/iconsBig/CPrL244X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "BGORATTK.wav",
-			"defend": "BGORDFND.wav",
-			"killed": "BGORKILL.wav",
-			"move": "BGORMOVE.wav",
-			"wince": "BGORWNCE.wav"
+		"sound" : {
+			"attack" : "BGORATTK.wav",
+			"defend" : "BGORDFND.wav",
+			"killed" : "BGORKILL.wav",
+			"move" : "BGORMOVE.wav",
+			"wince" : "BGORWNCE.wav"
 		},
-		"abilities" :
-		{
-			"deathStare" : 
-			{
+		"abilities" : {
+			"deathStare" : {
 				"type" : "DEATH_STARE",
 				"subtype" : "deathStareGorgon",
 				"val" : 10
 			},
-			"thriceRetal" :
-			{
+			"thriceRetal" : {
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 2
 			},
-			"petrify" :
-			{
+			"petrify" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.stoneGaze",
 				"val" : 20,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{	
+				"bonus" : {
 					"type" : "FEAR"
 				},
-				"values" : [false, false, false, false, true, true, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{	
+				"bonus" : {
 					"type" : "DEATH_STARE",
-					"subtype" : "deathStareGorgon",
+					"subtype" : "deathStareGorgon"
 				},
-				"values" : [13, 16, 19, 22, 25, 28, 31, 34, 37, 40]
+				"values" : [
+					13,
+					16,
+					19,
+					22,
+					25,
+					28,
+					31,
+					34,
+					37,
+					40
+				]
 			},
 			{
-				"bonus" :
-				{	
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any",
+					"subtype" : "spellSchool.any"
 				},
-				"values" : [0, 0, 0, 0, 0, 5, 10, 15, 20, 25]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					5,
+					10,
+					15,
+					20,
+					25
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}
-}	
+}

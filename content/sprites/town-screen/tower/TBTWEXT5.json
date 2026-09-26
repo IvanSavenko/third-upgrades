@@ -1,13 +1,11 @@
 {
-    "basepath" : "town-screen/tower/frames/",
-    "sequences" :
-    [
-        {
-            "group" : 0,
-            "frames" :
-            [
-                "TBTWEXT5"
-            ]
-        }  
-    ]
+	"basepath" : "town-screen/tower/frames/",
+	"sequences" : [
+		{
+			"group" : 0,
+			"frames" : [
+				"TBTWEXT5"
+			]
+		}
+	]
 }

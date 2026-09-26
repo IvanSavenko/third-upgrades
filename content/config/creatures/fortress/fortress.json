@@ -1,30 +1,38 @@
 {
-	"core:gnollMarauder" :
-	{
-		"upgrades": ["tumGnollShaman"]
+	"core:gnollMarauder" : {
+		"upgrades" : [
+			"tumGnollShaman"
+		]
 	},
-	"core:lizardWarrior" :
-	{
-		"upgrades": ["tumEliteLizard"]
+	"core:lizardWarrior" : {
+		"upgrades" : [
+			"tumEliteLizard"
+		]
 	},
-	"core:mightyGorgon" :
-	{
-		"upgrades": ["tumCatopleba"]
+	"core:mightyGorgon" : {
+		"upgrades" : [
+			"tumCatopleba"
+		]
 	},
-	"core:fireDragonFly" : // dragonFly is correct in-game, incorrect in HOTRAITS
-	{
-		"upgrades": ["tumChaoticDragonFly"]
+	// dragonFly is correct in-game, incorrect in HOTRAITS
+	"core:fireDragonFly" : {
+		"upgrades" : [
+			"tumChaoticDragonFly"
+		]
 	},
-	"core:greaterBasilisk" :
-	{
-		"upgrades": ["tumLavaBasilisk"]
+	"core:greaterBasilisk" : {
+		"upgrades" : [
+			"tumLavaBasilisk"
+		]
 	},
-	"core:wyvernMonarch" :
-	{
-		"upgrades": ["tumAcidWyvern"]
+	"core:wyvernMonarch" : {
+		"upgrades" : [
+			"tumAcidWyvern"
+		]
 	},
-	"core:chaosHydra" :
-	{
-		"upgrades": ["hellHydra"]
+	"core:chaosHydra" : {
+		"upgrades" : [
+			"hellHydra"
+		]
 	}
 }

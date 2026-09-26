@@ -1,25 +1,20 @@
 {
-	"tumPlasmaElemental" :
-	{
-		"name" :
-		{
+	"tumPlasmaElemental" : {
+		"name" : {
 			"plural" : "Plasma Elementals",
 			"singular" : "Plasma Elemental"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 24,
 			"min" : 10
 		},
 		"faction" : "conflux",
 		"attack" : 12,
 		"defense" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 500
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 6,
 			"min" : 4
 		},
@@ -29,87 +24,72 @@
 		"level" : 4,
 		"fightValue" : 604,
 		"aiValue" : 794,
-		"graphics" :
-		{
-			"animation" : 	"creatures/conflux/battle/CR249",
-			"map" : 		"creatures/conflux/map/AVWCR249",
-			"iconSmall" : 	"creatures/conflux/iconsSmall/CPrS249X",
-			"iconLarge" : 	"creatures/conflux/iconsBig/CPrL249X",
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/CR249",
+			"map" : "creatures/conflux/map/AVWCR249",
+			"iconSmall" : "creatures/conflux/iconsSmall/CPrS249X",
+			"iconLarge" : "creatures/conflux/iconsBig/CPrL249X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "FELMATTK.wav",
-			"defend": "FELMDFND.wav",
-			"killed": "FELMKILL.wav",
-			"move": "FELMMOVE.wav",
-			"wince": "FELMWNCE.wav"
+		"sound" : {
+			"attack" : "FELMATTK.wav",
+			"defend" : "FELMDFND.wav",
+			"killed" : "FELMKILL.wav",
+			"move" : "FELMMOVE.wav",
+			"wince" : "FELMWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"frostRingVulnerablity" :
-			{
+			"frostRingVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.frostRing",
 				"val" : 100
 			},
-			"iceBoltVulnerablity" :
-			{
+			"iceBoltVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.iceBolt",
 				"val" : 100
 			},
-			"spellPower" : 
-			{
+			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
-			"spellPoints" : 
-			{
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"spellcaster":
-			{
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireShield",
 				"val" : 2
 			},
-			"protectFire":
-			{
+			"protectFire" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.protectFire",
 				"val" : 2
-			},	
-			"fireShield" :
-			{
+			},
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 20
-			}			
+			}
 		}
 	}
-}	
+}

@@ -1,25 +1,20 @@
 {
-	"tumAcidWyvern":
-	{
-		"name" :
-		{
+	"tumAcidWyvern" : {
+		"name" : {
 			"plural" : "Acid Wyverns",
 			"singular" : "Acid Wyvern"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 6,
 			"min" : 5
 		},
 		"faction" : "fortress",
 		"attack" : 18,
 		"defense" : 15,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1500
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 23,
 			"min" : 20
 		},
@@ -30,74 +25,94 @@
 		"doubleWide" : true,
 		"fightValue" : 1381,
 		"aiValue" : 1718,
-		"graphics" :
-		{
-			"animation" : 	"creatures/fortress/battle/CR243",
-			"map" : 		"creatures/fortress/map/AVWCR243",
-			"iconSmall" : 	"creatures/fortress/iconsSmall/CPrS243X",
-			"iconLarge" : 	"creatures/fortress/iconsBig/CPrL243X",
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/CR243",
+			"map" : "creatures/fortress/map/AVWCR243",
+			"iconSmall" : "creatures/fortress/iconsSmall/CPrS243X",
+			"iconLarge" : "creatures/fortress/iconsBig/CPrL243X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "WYVMATTK.wav",
-			"defend": "WYVMDFND.wav",
-			"killed": "WYVMKILL.wav",
-			"move": "WYVMMOVE.wav",
-			"wince": "WYVMWNCE.wav"
+		"sound" : {
+			"attack" : "WYVMATTK.wav",
+			"defend" : "WYVMDFND.wav",
+			"killed" : "WYVMKILL.wav",
+			"move" : "WYVMMOVE.wav",
+			"wince" : "WYVMWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"petrify" :
-			{
+			"petrify" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 50,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			},
-			"acidBreath" :
-			{
+			"acidBreath" : {
 				"type" : "ACID_BREATH",
 				"val" : 25,
 				"addInfo" : 30
 			},
-			"reduceDefence" :
-			{
+			"reduceDefence" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.acidBreath",
 				"val" : 100,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{	
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.poison",
-					"addInfo" : [1, 2]
+					"addInfo" : [
+						1,
+						2
+					]
 				},
-				"values" : [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 1, 2, 3, 4, 4, 5, 5, 6]
+				"values" : [
+					0,
+					0,
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					5,
+					6
+				]
 			}
 		]
-	},
-}	
+	}
+}

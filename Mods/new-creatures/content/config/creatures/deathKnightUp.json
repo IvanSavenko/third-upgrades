@@ -1,25 +1,20 @@
 {
-	"dreadGuard":
-	{
-		"name" : 
-		{
+	"dreadGuard" : {
+		"name" : {
 			"plural" : "Dread Guards",
 			"singular" : "Dread Guard"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 5,
 			"max" : 12
 		},
 		"faction" : "necropolis",
 		"attack" : 10,
 		"defense" : 14,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 850
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 10
 		},
@@ -29,82 +24,79 @@
 		"speed" : 8,
 		"fightValue" : 1483,
 		"aiValue" : 1400,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/dreadGuard/dreadGuard",
-			"map" : 	  "creatures/dreadGuard/dreadGuard_map",
+			"map" : "creatures/dreadGuard/dreadGuard_map",
 			"iconSmall" : "creatures/dreadGuard/dreadGuard_s",
 			"iconLarge" : "creatures/dreadGuard/dreadGuard_b",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "blackGuard/BLGRATTK.wav",
-			"defend": "blackGuard/BLGRDFND.wav",
-			"killed": "blackGuard/BLGRKILL.wav",
-			"move": "blackGuard/BLGRMOVE.wav",
-			"wince": "blackGuard/BLGRWNCE.wav"
+		"sound" : {
+			"attack" : "blackGuard/BLGRATTK.wav",
+			"defend" : "blackGuard/BLGRDFND.wav",
+			"killed" : "blackGuard/BLGRKILL.wav",
+			"move" : "blackGuard/BLGRMOVE.wav",
+			"wince" : "blackGuard/BLGRWNCE.wav"
 		},
-		"abilities" :
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"hatesSwords" :
-			{
+			"hatesSwords" : {
 				"type" : "HATE",
 				"subtype" : "creature.swordsman",
 				"val" : 50
 			},
-			"hatesCrusade" :
-			{
+			"hatesCrusade" : {
 				"type" : "HATE",
 				"subtype" : "creature.crusader",
 				"val" : 50
 			},
-			"hatesInqusitor" :
-			{
+			"hatesInqusitor" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumInquisitor",
 				"val" : 50
 			},
-			"defender" :
-			{
+			"defender" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 2
 			},
-			"chargeImmune" :
-			{
+			"chargeImmune" : {
 				"type" : "CHARGE_IMMUNITY"
 			},
-			"additionalAttack" :
-			{
+			"additionalAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"additionalAttack" :
-			{
+			"additionalAttack" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 10
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DEFENSIVE_STANCE"
 				},
-				"values" : [2, 2, 2, 2, 2, 3, 3, 3, 3, 4]
+				"values" : [
+					2,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					3,
+					4
+				]
 			}
-		]	
+		]
 	}
 }

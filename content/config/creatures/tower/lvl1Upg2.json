@@ -1,26 +1,21 @@
 {
-	"tumGrandmasterGremlin":
-	{
-		"name" :
-		{
+	"tumGrandmasterGremlin" : {
+		"name" : {
 			"plural" : "Grandmaster Gremlins",
 			"singular" : "Grandmaster Gremlin"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 20
 		},
 		"faction" : "tower",
 		"attack" : 5,
 		"defense" : 4,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 1
 		},
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 60
 		},
 		"growth" : 16,
@@ -30,22 +25,33 @@
 		"speed" : 5,
 		"fightValue" : 70,
 		"aiValue" : 80,
-		"graphics" :
-		{
-			"animation" : 	"creatures/tower/battle/Cr255",
-			"map" : 		"creatures/tower/map/AVWCR255",
-			"iconSmall" : 	"creatures/tower/iconsSmall/CPrs255X",
-			"iconLarge" : 	"creatures/tower/iconsBig/CPrL255X",
+		"graphics" : {
+			"animation" : "creatures/tower/battle/Cr255",
+			"map" : "creatures/tower/map/AVWCR255",
+			"iconSmall" : "creatures/tower/iconsSmall/CPrs255X",
+			"iconLarge" : "creatures/tower/iconsBig/CPrL255X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
 			"missile" : {
 				"attackClimaxFrame" : 11,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
 				"offset" : {
 					"lowerX" : 9,
 					"lowerY" : 9,
@@ -54,40 +60,45 @@
 					"upperX" : 55,
 					"upperY" : -52
 				},
-				"projectile": "CPRGRE.DEF"
+				"projectile" : "CPRGRE.DEF"
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "AAGLATTK.wav",
-			"defend": "AAGLDFND.wav",
-			"killed": "AAGLKILL.wav",
-			"move": "AAGLMOVE.wav",
-			"shoot": "AGRMSHOT.wav",
-			"wince": "AAGLWNCE.wav"
+		"sound" : {
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"shoot" : "AGRMSHOT.wav",
+			"wince" : "AAGLWNCE.wav"
 		},
-		"abilities":
-		{
-			"canShoot" : 
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"extraAttack" :
-			{
-				"type": "ADDITIONAL_ATTACK",
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"effectRange": "ONLY_DISTANCE_FIGHT"
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}

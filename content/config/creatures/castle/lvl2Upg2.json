@@ -1,21 +1,17 @@
 {
-	"tumCrossbowman":
-	{
-		"name" :
-		{
+	"tumCrossbowman" : {
+		"name" : {
 			"plural" : "Crossbowmen",
 			"singular" : "Crossbowman"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 22,
 			"min" : 16
 		},
 		"faction" : "castle",
 		"attack" : 7,
 		"defense" : 4,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 2
 		},
@@ -26,29 +22,24 @@
 		"speed" : 7,
 		"aiValue" : 278,
 		"fightValue" : 232,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 200
 		},
-		"graphics" :
-		{
-			"animation" : 	"creatures/castle/battle/cr198",
-			"map" : 		"creatures/castle/map/AVWCR198",
-			"iconSmall" : 	"creatures/castle/iconsSmall/CPrS198X",
-			"iconLarge" : 	"creatures/castle/iconsBig/CPrL198X",
+		"graphics" : {
+			"animation" : "creatures/castle/battle/cr198",
+			"map" : "creatures/castle/map/AVWCR198",
+			"iconSmall" : "creatures/castle/iconsSmall/CPrS198X",
+			"iconLarge" : "creatures/castle/iconsBig/CPrL198X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
-				"projectile": "PLCBOWX.DEF",
+			"missile" : {
+				"projectile" : "PLCBOWX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -56,55 +47,93 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "HCRSATTK.wav",
-			"defend": "HCRSDFND.wav",
-			"killed": "HCRSKILL.wav",
-			"move": "HCRSMOVE.wav",
-			"shoot": "HCRSSHOT.wav",
-			"wince": "HCRSWNCE.wav"
+		"sound" : {
+			"attack" : "HCRSATTK.wav",
+			"defend" : "HCRSDFND.wav",
+			"killed" : "HCRSKILL.wav",
+			"move" : "HCRSMOVE.wav",
+			"shoot" : "HCRSSHOT.wav",
+			"wince" : "HCRSWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"extraAttack" :
-			{
-				"type": "ADDITIONAL_ATTACK",
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"effectRange": "ONLY_DISTANCE_FIGHT"
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION"
 				},
-				"values" : [0, 10, 12, 13, 15, 17, 19, 21, 23, 25]
+				"values" : [
+					0,
+					10,
+					12,
+					13,
+					15,
+					17,
+					19,
+					21,
+					23,
+					25
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
-	}	
+	}
 }

@@ -1,5 +1,5 @@
 {
-	"tumNosferatu": {
+	"tumNosferatu" : {
 		"name" : {
 			"singular" : "Nosferatu",
 			"plural" : "Nosferatus"
@@ -43,7 +43,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/necropolis/battle/CR221",
-			"map" : 	  "creatures/necropolis/map/AVWCR221",
+			"map" : "creatures/necropolis/map/AVWCR221",
 			"iconSmall" : "creatures/necropolis/iconsSmall/CPrS221X",
 			"iconLarge" : "creatures/necropolis/iconsBig/CPrL221X",
 			"animationTime" : {

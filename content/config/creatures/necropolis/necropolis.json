@@ -1,30 +1,37 @@
 {
-	"core:skeletonWarrior" :
-	{
-		"upgrades": ["tumSkeletonKnight"]
+	"core:skeletonWarrior" : {
+		"upgrades" : [
+			"tumSkeletonKnight"
+		]
 	},
-	"core:zombieLord" :
-	{
-		"upgrades": ["tumGhoul"]
+	"core:zombieLord" : {
+		"upgrades" : [
+			"tumGhoul"
+		]
 	},
-	"core:wraith" :
-	{
-		"upgrades": ["tumSpecter"]
+	"core:wraith" : {
+		"upgrades" : [
+			"tumSpecter"
+		]
 	},
-	"core:vampireLord" :
-	{
-		"upgrades": ["tumNosferatu"]
+	"core:vampireLord" : {
+		"upgrades" : [
+			"tumNosferatu"
+		]
 	},
-	"core:powerLich" :
-	{
-		"upgrades": ["tumLichKing"]
+	"core:powerLich" : {
+		"upgrades" : [
+			"tumLichKing"
+		]
 	},
-	"core:dreadKnight" :
-	{
-		"upgrades": ["tumDeathKnight"]
+	"core:dreadKnight" : {
+		"upgrades" : [
+			"tumDeathKnight"
+		]
 	},
-	"core:ghostDragon" :
-	{
-		"upgrades": ["bloodDragon"]
+	"core:ghostDragon" : {
+		"upgrades" : [
+			"bloodDragon"
+		]
 	}
 }

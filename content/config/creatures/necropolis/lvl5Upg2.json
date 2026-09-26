@@ -1,25 +1,20 @@
 {
-	"tumLichKing":
-	{
-		"name" : 
-		{
+	"tumLichKing" : {
+		"name" : {
 			"plural" : "Lich Kings",
 			"singular" : "Lich King"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 8
 		},
 		"faction" : "necropolis",
 		"attack" : 15,
 		"defense" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 650
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 15,
 			"min" : 13
 		},
@@ -30,25 +25,21 @@
 		"speed" : 8,
 		"fightValue" : 1155,
 		"aiValue" : 1402,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/necropolis/battle/CR222",
-			"map" : 	  "creatures/necropolis/map/AVWCR222",
+			"map" : "creatures/necropolis/map/AVWCR222",
 			"iconSmall" : "creatures/necropolis/iconsSmall/CPrS222X",
 			"iconLarge" : "creatures/necropolis/iconsBig/CPrL222X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
-				"projectile": "PLICH.DEF",
+			"missile" : {
+				"projectile" : "PLICH.DEF",
 				"attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,108 +47,148 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "PLCHATTK.wav",
-			"defend": "PLCHDFND.wav",
-			"killed": "PLCHKILL.wav",
-			"move": "PLCHMOVE.wav",
-			"shoot": "PLCHSHOT.wav",
-			"wince": "PLCHWNCE.wav",
+		"sound" : {
+			"attack" : "PLCHATTK.wav",
+			"defend" : "PLCHDFND.wav",
+			"killed" : "PLCHKILL.wav",
+			"move" : "PLCHMOVE.wav",
+			"shoot" : "PLCHSHOT.wav",
+			"wince" : "PLCHWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"undead" :
-			{
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"summons50HP" : 
-			{
+			"summons50HP" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.summonDemons", //przerobić na szkielety
 				"val" : 50
 			},
-			"resurrects" :
-			{
+			"resurrects" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.summonDemons",
 				"val" : 0
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"deathCloud" :
-			{
+			"deathCloud" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.deathCloud"
 			},
-			"airShield" :
-			{
+			"airShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.precision",
 				"val" : 3,
 				"addInfo" : 1
 			},
-			"hateMage" : 
-			{
+			"hateMage" : {
 				"type" : "HATE",
 				"subtype" : "creature.mage",
 				"val" : 50
 			},
-			"hateArchMage" : 
-			{
+			"hateArchMage" : {
 				"type" : "HATE",
 				"subtype" : "creature.archMage",
 				"val" : 50
 			},
-			"hateSupremeArchMage" : 
-			{
+			"hateSupremeArchMage" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumSupremeArchMage",
 				"val" : 50
 			}
-		},	
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "creature.enchanter",
+					"subtype" : "creature.enchanter"
 				},
-				"values" : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+				"values" : [
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					90,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.deathRipple"
 				},
-				"values" : [0, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+				"values" : [
+					0,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			}
 		]
 	}

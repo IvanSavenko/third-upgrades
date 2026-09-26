@@ -1,5 +1,5 @@
 {
-	"tumHobgoblinOverlord": {
+	"tumHobgoblinOverlord" : {
 		"name" : {
 			"singular" : "Hobgoblin Overlord",
 			"plural" : "Hobgoblin Overlords"
@@ -28,7 +28,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/stronghold/battle/CR232",
-			"map" : 	  "creatures/stronghold/map/AVWCR232",
+			"map" : "creatures/stronghold/map/AVWCR232",
 			"iconSmall" : "creatures/stronghold/iconsSmall/CPrS232X",
 			"iconLarge" : "creatures/stronghold/iconsBig/CPrL232X",
 			"animationTime" : {
@@ -36,7 +36,7 @@
 				"idle" : 10,
 				"walk" : 1.24
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "HGOBATTK.wav",
@@ -45,33 +45,27 @@
 			"move" : "HGOBMOVE.wav",
 			"wince" : "HGOBWNCE.wav"
 		},
-		"abilities":
-		{
-			"extraAttack" :
-			{
+		"abilities" : {
+			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"stoneSkin" :
-			{
+			"stoneSkin" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.stoneSkin",
 				"val" : 1
 			},
-			"hateDwarf" :
-			{
+			"hateDwarf" : {
 				"type" : "HATE",
 				"subtype" : "creature.dwarf",
 				"val" : 50
 			},
-			"hateBattleDwarf" :
-			{
+			"hateBattleDwarf" : {
 				"type" : "HATE",
 				"subtype" : "creature.battleDwarf",
 				"val" : 50
 			},
-			"hateBerserkerDwarf" :
-			{
+			"hateBerserkerDwarf" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumBerserkerDwarf",
 				"val" : 50

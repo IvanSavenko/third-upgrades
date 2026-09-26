@@ -1,25 +1,20 @@
 {
-	"tumEfreetRajah":
-	{
-		"name" :
-		{
+	"tumEfreetRajah" : {
+		"name" : {
 			"plural" : "Efreet Rajahs",
 			"singular" : "Efreet Rajah"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 5
 		},
 		"faction" : "inferno",
 		"attack" : 20,
 		"defense" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1300
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 25,
 			"min" : 18
 		},
@@ -29,117 +24,134 @@
 		"speed" : 15,
 		"fightValue" : 2002,
 		"aiValue" : 2402,
-		"graphics" :
-		{
-			"animation" : 	"creatures/inferno/battle/CR218",
-			"map" : 		"creatures/inferno/map/AVWCR218",
-			"iconSmall" : 	"creatures/inferno/iconsSmall/CPrs218X",
-			"iconLarge" : 	"creatures/inferno/iconsBig/CPrL218X",
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/CR218",
+			"map" : "creatures/inferno/map/AVWCR218",
+			"iconSmall" : "creatures/inferno/iconsSmall/CPrs218X",
+			"iconLarge" : "creatures/inferno/iconsBig/CPrL218X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "ESULATTK.wav",
-			"defend": "ESULDFND.wav",
-			"killed": "ESULKILL.wav",
-			"move": "ESULMOVE.wav",
-			"shoot": "ESULSHOT.wav",
-			"wince": "ESULWNCE.wav"
+		"sound" : {
+			"attack" : "ESULATTK.wav",
+			"defend" : "ESULDFND.wav",
+			"killed" : "ESULKILL.wav",
+			"move" : "ESULMOVE.wav",
+			"shoot" : "ESULSHOT.wav",
+			"wince" : "ESULWNCE.wav"
 		},
-		"abilities" :
-		{
-			"hateGenies" : 
-			{
+		"abilities" : {
+			"hateGenies" : {
 				"type" : "HATE",
 				"subtype" : "creature.genie",
 				"val" : 50
 			},
-			"hateMasterGenies" : 
-			{
+			"hateMasterGenies" : {
 				"type" : "HATE",
 				"subtype" : "creature.masterGenie",
 				"val" : 50
 			},
-			"hateVisionaryGenies" : 
-			{
+			"hateVisionaryGenies" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumArcaneGenie",
 				"val" : 50
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"immuneToFire" :
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 30
 			},
-			"immuneToMind" :
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"spellFireWall" :
-			{
+			"spellFireWall" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.fireWall",
 				"val" : 20,
-				"addInfo" : [0, 2]
+				"addInfo" : [
+					0,
+					2
+				]
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"fireShieldPower" : 
-			{
+			"fireShieldPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.fireShield",
 				"val" : 50
 			},
-			"castFireShield" :
-			{
+			"castFireShield" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireShield",
 				"val" : 3
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "BLOCKS_RETALIATION"
 				},
-				"values" : [false, false, false, false, false, false, true, true, true, true,]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "RECEPTIVE"
 				},
-				"values" : [false, false, false, false, true, true, true, true, true, true,]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			}
 		]
-	}	
+	}
 }

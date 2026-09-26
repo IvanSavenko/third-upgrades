@@ -7,8 +7,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Compatibility",
 	"version" : "1.0.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.5.0"
 	},
 	"russian" : {
@@ -18,15 +17,13 @@
 			"translation/russian.json"
 		]
 	},
-	"changelog" :
-    {
-		"1.0.0"   : [ "Initial release" ]
-    },	
-	"conflicts" :
-	[
-	],
-	"depends" :
-	[
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"conflicts" : [],
+	"depends" : [
 		"wake-of-gods.level8units",
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.hota-balance-compatibility-patch",
@@ -36,8 +33,7 @@
 		"third-upgrades.tow-comp",
 		"third-upgrades.hota-comp"
 	],
-	"factions" :
-	[
+	"factions" : [
 		"config/town-screen/necropolis/factions",
 		"config/town-screen/fortress/factions",
 		"config/town-screen/rampart/factions",

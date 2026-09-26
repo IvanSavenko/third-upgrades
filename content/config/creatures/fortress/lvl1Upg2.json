@@ -1,5 +1,5 @@
 {
-	"tumGnollShaman": {
+	"tumGnollShaman" : {
 		"name" : {
 			"singular" : "Gnoll Shaman",
 			"plural" : "Gnoll Shamans"
@@ -28,7 +28,7 @@
 		"hasDoubleWeek" : true,
 		"graphics" : {
 			"animation" : "creatures/fortress/battle/CR321",
-			"map" : 	  "creatures/fortress/map/AVWCR321",
+			"map" : "creatures/fortress/map/AVWCR321",
 			"iconSmall" : "creatures/fortress/iconsSmall/CPrS321X",
 			"iconLarge" : "creatures/fortress/iconsBig/CPrL321X",
 			"animationTime" : {
@@ -45,21 +45,17 @@
 			"move" : "GNLMMOVE.wav",
 			"wince" : "GNLMWNCE.wav"
 		},
-		"abilities":
-		{
-			"castsCurse" :
-			{
+		"abilities" : {
+			"castsCurse" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.curse",
 				"val" : 2
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 50
 			}

@@ -1,25 +1,20 @@
 {
-	"tumPitMaster":
-	{
-		"name" :
-		{
+	"tumPitMaster" : {
+		"name" : {
 			"plural" : "Pit Masters",
 			"singular" : "Pit Master"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 8
 		},
 		"faction" : "inferno",
 		"attack" : 13,
 		"defense" : 13,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 950
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 17,
 			"min" : 14
 		},
@@ -29,102 +24,152 @@
 		"speed" : 8,
 		"fightValue" : 1320,
 		"aiValue" : 1513,
-		"graphics" :
-		{
-			"animation" : 	"creatures/inferno/battle/CR217",
-			"map" : 		"creatures/inferno/map/AVWCR217",
-			"iconSmall" : 	"creatures/inferno/iconsSmall/CPrs217X",
-			"iconLarge" : 	"creatures/inferno/iconsBig/CPrL217X",
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/CR217",
+			"map" : "creatures/inferno/map/AVWCR217",
+			"iconSmall" : "creatures/inferno/iconsSmall/CPrs217X",
+			"iconLarge" : "creatures/inferno/iconsBig/CPrL217X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "PFOEATTK.wav",
-			"defend": "PFOEDFND.wav",
-			"killed": "PFOEKILL.wav",
-			"move": "PFOEMOVE.wav",
-			"wince": "PFOEWNCE.wav"
+		"sound" : {
+			"attack" : "PFOEATTK.wav",
+			"defend" : "PFOEDFND.wav",
+			"killed" : "PFOEKILL.wav",
+			"move" : "PFOEMOVE.wav",
+			"wince" : "PFOEWNCE.wav"
 		},
-		"abilities" :
-		{
-			"summons50HP" : 
-			{
+		"abilities" : {
+			"summons50HP" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.summonDemons", //przerobić do horned
 				"val" : 50
 			},
-			"resurrects" :
-			{
+			"resurrects" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.summonDemons",
 				"val" : 0
 			},
-			"noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"attackAround" :
-			{
+			"attackAround" : {
 				"type" : "THREE_HEADED_ATTACK"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "UNLIMITED_RETALIATIONS"
 				},
-				"values" : [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire",
+					"subtype" : "spell.protectFire"
 				},
-				"values" : [1, 1, 1, 2, 2, 2, 2, 3, 3, 3]	
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARLESS"
 				},
-				"values" : [false, false, false, false, false, false, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CASTS"
 				},
-				"values" : [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MIND_IMMUNITY"
 				},
-				"values" : [false, false, false, false, false, false, false, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
-	}	
+	}
 }

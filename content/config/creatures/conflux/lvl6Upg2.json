@@ -1,5 +1,5 @@
 {
-	"tumVoidElemental": {
+	"tumVoidElemental" : {
 		"name" : {
 			"singular" : "Void Elemental",
 			"plural" : "Void Elementals"
@@ -42,23 +42,19 @@
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			},
-			"spellResistAura" :
-			{
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 20
 			},
-			"manaChannel" :
-			{
+			"manaChannel" : {
 				"type" : "MANA_CHANNELING",
 				"val" : 20
 			},
-			"drainsMana" :
-			{
+			"drainsMana" : {
 				"type" : "MANA_DRAIN",
 				"val" : 2
 			},
-			"dispellHelpful" :
-			{
+			"dispellHelpful" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispelHelpful",
 				"val" : 100
@@ -66,7 +62,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/conflux/battle/CR251",
-			"map" :   	  "creatures/conflux/map/AVWCR251",
+			"map" : "creatures/conflux/map/AVWCR251",
 			"iconSmall" : "creatures/conflux/iconsSmall/CPrS251X",
 			"iconLarge" : "creatures/conflux/iconsBig/CPrL251X",
 			"animationTime" : {

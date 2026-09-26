@@ -1,112 +1,138 @@
 {
-	"tumLegendaryUnicorn":
-	{
-		"name" : 
-		{
+	"tumLegendaryUnicorn" : {
+		"name" : {
 			"plural" : "Legendary Unicorns",
 			"singular" : "Legendary Unicorn"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 5
 		},
 		"faction" : "rampart",
 		"attack" : 16,
 		"defense" : 14,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 22,
 			"min" : 20
 		},
 		"growth" : 2,
 		"hitPoints" : 150,
 		"level" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
 		"speed" : 10,
 		"fightValue" : 2836,
 		"aiValue" : 3042,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/rampart/battle/cr206",
-			"map" : 	  "creatures/rampart/map/AVWCR206",
+			"map" : "creatures/rampart/map/AVWCR206",
 			"iconSmall" : "creatures/rampart/iconsSmall/CPrS206X",
 			"iconLarge" : "creatures/rampart/iconsBig/CPrL206X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "WUNCATTK.wav",
-			"defend": "WUNCDFND.wav",
-			"killed": "WUNCKILL.wav",
-			"move": "WUNCMOVE.wav",
-			"shoot": "WUNCSHOT.wav",
-			"wince": "WUNCWNCE.wav"
+		"sound" : {
+			"attack" : "WUNCATTK.wav",
+			"defend" : "WUNCDFND.wav",
+			"killed" : "WUNCKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"shoot" : "WUNCSHOT.wav",
+			"wince" : "WUNCWNCE.wav"
 		},
-		"abilities" :
-		{
-			"spellResistAura" :
-			{
+		"abilities" : {
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 40
 			},
-			"spellAfterBlind" :
-			{
+			"spellAfterBlind" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20
 			},
-			"unlimitedRetaliations" :
-			{
+			"unlimitedRetaliations" : {
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"ufearless" :
-			{
+			"ufearless" : {
 				"type" : "FEARLESS"
-			}	
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARLESS"
 				},
-				"values" : [false, false, false, false, false, true, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.blind"
 				},
-				"values" : [0, 5, 5, 10, 10, 15, 15, 20, 25, 30]
-			}, 
+				"values" : [
+					0,
+					5,
+					5,
+					10,
+					10,
+					15,
+					15,
+					20,
+					25,
+					30
+				]
+			},
 			{
-				"bonus":
-				{
+				"bonus" : {
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "spell.blind" // blind
 				},
-				"values" : [false, false, false, false, false, false, false, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
-		]	
+		]
 	}
 }

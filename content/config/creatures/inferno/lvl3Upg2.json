@@ -1,5 +1,5 @@
 {
-	"tumAstralCerberus": {
+	"tumAstralCerberus" : {
 		"name" : {
 			"singular" : "Astral Cerberus",
 			"plural" : "Astral Cerberi"
@@ -36,27 +36,26 @@
 			"fearless" : {
 				"type" : "FEARLESS"
 			},
-			"poison" :
-			{
+			"poison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 50,
-				"addInfo" : [1,2]
+				"addInfo" : [
+					1,
+					2
+				]
 			},
-			"hateGriffin" : 
-			{
+			"hateGriffin" : {
 				"type" : "HATE",
 				"subtype" : "creature.griffin",
 				"val" : 50
 			},
-			"hateRoyalGriffin" : 
-			{
+			"hateRoyalGriffin" : {
 				"type" : "HATE",
 				"subtype" : "creature.royalGriffin",
 				"val" : 50
 			},
-			"hateCesarGriffin" : 
-			{
+			"hateCesarGriffin" : {
 				"type" : "HATE",
 				"subtype" : "creature.tumCeasarGriffin",
 				"val" : 50
@@ -65,7 +64,7 @@
 
 		"graphics" : {
 			"animation" : "creatures/inferno/battle/CR215",
-			"map" : 	  "creatures/inferno/map/AVWCR215",
+			"map" : "creatures/inferno/map/AVWCR215",
 			"iconSmall" : "creatures/inferno/iconsSmall/CPrs215X",
 			"iconLarge" : "creatures/inferno/iconsBig/CPrL215X",
 			"animationTime" : {

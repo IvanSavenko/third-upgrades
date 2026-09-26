@@ -1,25 +1,20 @@
 {
-	"tumFairy" :
-	{
-		"name" :
-		{
+	"tumFairy" : {
+		"name" : {
 			"plural" : "Fairies",
 			"singular" : "Fairy"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 20
 		},
 		"faction" : "conflux",
 		"attack" : 2,
 		"defense" : 2,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 50
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 2
 		},
@@ -30,101 +25,140 @@
 		"level" : 1,
 		"fightValue" : 90,
 		"aiValue" : 104,
-		"graphics" :
-		{
-			"animation" : 	"creatures/conflux/battle/CR246",
-			"map" : 		"creatures/conflux/map/AVWCR246",
-			"iconSmall" : 	"creatures/conflux/iconsSmall/CPrS246X",
-			"iconLarge" : 	"creatures/conflux/iconsBig/CPrL246X",
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/CR246",
+			"map" : "creatures/conflux/map/AVWCR246",
+			"iconSmall" : "creatures/conflux/iconsSmall/CPrS246X",
+			"iconLarge" : "creatures/conflux/iconsBig/CPrL246X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "SPRTATTK.wav",
-			"defend": "SPRTDFND.wav",
-			"killed": "SPRTKILL.wav",
-			"move": "SPRTMOVE.wav",
-			"wince": "SPRTWNCE.wav"
+		"sound" : {
+			"attack" : "SPRTATTK.wav",
+			"defend" : "SPRTDFND.wav",
+			"killed" : "SPRTKILL.wav",
+			"move" : "SPRTMOVE.wav",
+			"wince" : "SPRTWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"noRetaliation" : 
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"spellResistAura" :
-			{
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 20
 			},
-			"castsBless" :
-			{
+			"castsBless" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bless",
 				"val" : 2
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 50
 			}
 		},
-		 "stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "creature.skeleton",
+					"subtype" : "creature.skeleton"
 				},
-				"values" : [0, 0, 0, 0, 0, 10, 20, 30, 40, 50]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "creature.skeletonWarrior",
+					"subtype" : "creature.skeletonWarrior"
 				},
-				"values" : [0, 0, 0, 0, 0, 10, 20, 30, 40, 50]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
-					"subtype" : "creature.tumSkeletonKnight",
+					"subtype" : "creature.tumSkeletonKnight"
 				},
-				"values" : [0, 0, 0, 0, 0, 10, 20, 30, 40, 50]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [0, 0, 0, 2, 5, 8, 11, 14, 17, 20]
+				"values" : [
+					0,
+					0,
+					0,
+					2,
+					5,
+					8,
+					11,
+					14,
+					17,
+					20
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
-}	
+}

@@ -1,30 +1,37 @@
 {
-	"core:infernalTroglodyte" :
-	{
-		"upgrades": ["tumPhosphorescentTroglodyte"]
+	"core:infernalTroglodyte" : {
+		"upgrades" : [
+			"tumPhosphorescentTroglodyte"
+		]
 	},
-	"core:harpyHag" :
-	{
-		"upgrades": ["tumHarpySanguinary"]
+	"core:harpyHag" : {
+		"upgrades" : [
+			"tumHarpySanguinary"
+		]
 	},
-	"core:evilEye" :
-	{
-		"upgrades": ["tumMonstrousEye"]
+	"core:evilEye" : {
+		"upgrades" : [
+			"tumMonstrousEye"
+		]
 	},
-	"core:medusaQueen" :
-	{
-		"upgrades": ["tumMedusaEmpress"]
+	"core:medusaQueen" : {
+		"upgrades" : [
+			"tumMedusaEmpress"
+		]
 	},
-	"core:minotaurKing" :
-	{
-		"upgrades": ["tumBlackMinotaur"]
+	"core:minotaurKing" : {
+		"upgrades" : [
+			"tumBlackMinotaur"
+		]
 	},
-	"core:scorpicore" :
-	{
-		"upgrades": ["tumChimera"]
+	"core:scorpicore" : {
+		"upgrades" : [
+			"tumChimera"
+		]
 	},
-	"core:blackDragon" :
-	{
-		"upgrades": ["darknessDragon"]
+	"core:blackDragon" : {
+		"upgrades" : [
+			"darknessDragon"
+		]
 	}
 }

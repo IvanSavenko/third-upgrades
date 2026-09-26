@@ -1,5 +1,5 @@
 {
-	"tumWingedMagog": {
+	"tumWingedMagog" : {
 		"name" : {
 			"singular" : "Winged Magog",
 			"plural" : "Winged Magogs"
@@ -26,7 +26,6 @@
 			"max" : 22
 		},
 		"abilities" : {
-
 			"shooter" : {
 				"type" : "SHOOTER" //dopisać że strzela fireballami i no melee penalty
 			},
@@ -37,8 +36,7 @@
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"fireball" :
-			{
+			"fireball" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.inferno"
 			},
@@ -46,18 +44,17 @@
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"receptive": {
+			"receptive" : {
 				"type" : "RECEPTIVE"
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 25
 			}
 		},
 		"graphics" : {
 			"animation" : "creatures/inferno/battle/CR214.def",
-			"map" : 	  "creatures/inferno/map/AVWCR214",
+			"map" : "creatures/inferno/map/AVWCR214",
 			"iconSmall" : "creatures/inferno/iconsSmall/CPrs214X",
 			"iconLarge" : "creatures/inferno/iconsBig/CPrL214X",
 			"animationTime" : {
@@ -68,7 +65,20 @@
 			"missile" : {
 				"projectile" : "CPRGOGX.DEF",
 				"attackClimaxFrame" : 6,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
 				"offset" : {
 					"lowerX" : 15,
 					"lowerY" : -9,
@@ -76,9 +86,9 @@
 					"middleY" : -51,
 					"upperX" : 38,
 					"upperY" : -89
-				},
+				}
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "MGOGATTK.wav",

@@ -1,67 +1,70 @@
 {
 	"tides-of-war.alternative-creatures:mdtLilim" : {
-		"upgrades": ["mdtTempter"]
+		"upgrades" : [
+			"mdtTempter"
+		]
 	},
 	"mdtTempter" : {
 		"abilities" : {
-		
-			"shooter" : 
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"noDistancePenalty" :
-			{
+			"noDistancePenalty" : {
 				"type" : "NO_DISTANCE_PENALTY"
 			},
-			"noWallPenalty" :
-			{
+			"noWallPenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},
-			"rangedRetaliation" :
-			{
+			"rangedRetaliation" : {
 				"type" : "RANGED_RETALIATION"
 			},
-			"blockedRangedRetaliation" :
-			{
+			"blockedRangedRetaliation" : {
 				"type" : "BLOCKS_RANGED_RETALIATION"
 			},
-			"spellAfterAttack" :
-			{
+			"spellAfterAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.mdtHateSpike",
 				"val" : 1
 			}
-		},	
-		"advMapAmount" : {"max" : 16, "min" : 10},
+		},
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
+		},
 		"aiValue" : 1053,
 		"attack" : 12,
-		"cost" : { "gold" : 550 },
-		"damage" : {"max" : 12, "min" : 5},
+		"cost" : {
+			"gold" : 550
+		},
+		"damage" : {
+			"max" : 12,
+			"min" : 5
+		},
 		"shots" : 8,
 		"defense" : 9,
 		"faction" : "inferno",
 		"fightValue" : 940,
 		"graphics" : {
 			"animation" : "creatures/inferno/CTempter.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"iconLarge" : "creatures/inferno/tempterBig.png",
 			"iconSmall" : "creatures/inferno/tempterSmall.png",
 			"map" : "creatures/inferno/tempterMap.def",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "creatures/inferno/projectile/null.def",
 				"attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
 					"middleX" : 62,
@@ -69,15 +72,30 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 4,
 		"hitPoints" : 30,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 4,
-		"name" : { "plural" : "Tempters", "singular" : "Tempter" },
+		"name" : {
+			"plural" : "Tempters",
+			"singular" : "Tempter"
+		},
 		"sound" : {
 			"attack" : "creatures/inferno/sukkub/SUCCATTACK.wav",
 			"defend" : "creatures/inferno/sukkub/SUCCDFND.wav",
@@ -87,70 +105,149 @@
 			"shoot" : "creatures/inferno/sukkub/SUCCSHOT.wav"
 		},
 		"speed" : 11,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "earth",
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"val" : 100
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}

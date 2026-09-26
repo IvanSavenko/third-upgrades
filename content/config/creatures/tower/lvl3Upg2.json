@@ -1,13 +1,12 @@
 {
-	"tumSteelGolem": {
+	"tumSteelGolem" : {
 		"name" : {
 			"singular" : "Mithril Golem",
 			"plural" : "Mithril Golems"
 		},
 		"faction" : "tower",
 		"level" : 3,
-		"cost" : 
-		{
+		"cost" : {
 			"gold" : 400
 		},
 		"speed" : 6,
@@ -37,7 +36,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/tower/battle/Cr209",
-			"map" : 	  "creatures/tower/map/AVWCR209",
+			"map" : "creatures/tower/map/AVWCR209",
 			"iconSmall" : "creatures/tower/iconsSmall/CPrs209X",
 			"iconLarge" : "creatures/tower/iconsBig/CPrL209X",
 			"animationTime" : {
@@ -45,7 +44,7 @@
 				"idle" : 10,
 				"walk" : 1.2
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "SGLMATTK.wav",

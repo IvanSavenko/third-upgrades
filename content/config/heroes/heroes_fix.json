@@ -1,6 +1,5 @@
 {
-	"core:valeska":
-	{
+	"core:valeska" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Archers, Marksmen, and Crossbowmen for each level attained after 2nd level.",
@@ -9,8 +8,7 @@
 			}
 		}
 	},
-	"core:edric":
-	{
+	"core:edric" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Griffins, Royal Griffins, and Cesar Griffins or each level attained after 3rd level.",
@@ -19,8 +17,7 @@
 			}
 		}
 	},
-	"core:catherine":
-	{
+	"core:catherine" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Swordsmen, Crusaders, and Inquisitors for each level attained after 4th level.",
@@ -29,8 +26,7 @@
 			}
 		}
 	},
-	"core:sorsha":
-	{
+	"core:sorsha" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Swordsmen, Crusaders, and Inquisitors for each level attained after 4th level.",
@@ -39,8 +35,7 @@
 			}
 		}
 	},
-	"core:roland":
-	{
+	"core:roland" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Swordsmen, Crusaders, and Inquisitors for each level attained after 4th level.",
@@ -49,8 +44,7 @@
 			}
 		}
 	},
-	"core:tyris":
-	{
+	"core:tyris" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Cavaliers, Champions, and Holy Champions for each level attained after 6th level.",
@@ -60,11 +54,8 @@
 		}
 	},
 
-
-	"core:ingham":
-	{
+	"core:ingham" : {
 		"texts" : {
-
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Monks, Zealots, and High Priests for each level attained after 5th level.",
 				"name" : "Monks",
@@ -73,10 +64,8 @@
 		}
 	},
 
-	"core:kalt":
-	{
+	"core:kalt" : {
 		"texts" : {
-
 			"specialty" : {
 				"description" : "Water/Ice/Cryogenic elementals receive +2 Att.",
 				"name" : "Water Ele.",
@@ -85,10 +74,8 @@
 		}
 	},
 
-	"core:lacus":
-	{
+	"core:lacus" : {
 		"texts" : {
-
 			"specialty" : {
 				"description" : "Water/Ice/Cryogenic elementals receive +2 Att.",
 				"name" : "Water Ele.",
@@ -97,8 +84,7 @@
 		}
 	},
 
-	"core:ignissa":
-	{
+	"core:ignissa" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Fire/Energy/Plasma elementals receive +1 Att, +2 Def, and +2 Dmg.",
@@ -107,8 +93,7 @@
 			}
 		}
 	},
-	"core:fiur":
-	{
+	"core:fiur" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Fire/Energy/Plasma elementals receive +1 Att, +2 Def, and +2 Dmg.",
@@ -117,8 +102,7 @@
 			}
 		}
 	},
-	"core:pasis":
-	{
+	"core:pasis" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Psychic/Magic/Void elementals receive +3 Att and +3 Def.",
@@ -127,8 +111,7 @@
 			}
 		}
 	},
-	"core:monere":
-	{
+	"core:monere" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Psychic/Magic/Void elementals receive +3 Att and +3 Def.",
@@ -137,8 +120,7 @@
 			}
 		}
 	},
-	"core:erdamon":
-	{
+	"core:erdamon" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Earth/Magma/Lava elementals receive +2 Att, +1 Def, and +5 Dmg.",
@@ -147,8 +129,7 @@
 			}
 		}
 	},
-	"core:thunar":
-	{
+	"core:thunar" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Earth/Magma/Lava elementals receive +2 Att, +1 Def, and +5 Dmg.",
@@ -157,8 +138,7 @@
 			}
 		}
 	},
-	"core:lorelei":
-	{
+	"core:lorelei" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Harpies, Harpy Hags, and Harpy Sanguinaries for each level attained after 2nd level.",
@@ -167,8 +147,7 @@
 			}
 		}
 	},
-	"core:ajit":
-	{
+	"core:ajit" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Beholders, Evil Eyes, and Monstrous Eyes for each level attained after 2nd level.",
@@ -177,8 +156,7 @@
 			}
 		}
 	},
-	"core:shakti":
-	{
+	"core:shakti" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Troglodytes, Infernal Troglodytes, and Phosphorous Troglodytes for each level attained after 1st level.",
@@ -187,8 +165,7 @@
 			}
 		}
 	},
-	"core:dace":
-	{
+	"core:dace" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Minotaurs, Minotaur Kings, and Black Minotaurs for each level attained after 5th level.",
@@ -197,8 +174,7 @@
 			}
 		}
 	},
-	"core:synca":
-	{
+	"core:synca" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Manticores, Scorpicores, and Chimeras for each level attained after 6th level.",
@@ -207,8 +183,7 @@
 			}
 		}
 	},
-	"core:drakon":
-	{
+	"core:drakon" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gnolls, Gnoll Marauders, and Gnoll Shamans for each level attained after 1st level.",
@@ -217,8 +192,7 @@
 			}
 		}
 	},
-	"core:wystan":
-	{
+	"core:wystan" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Lizardmen, Lizard Warriors, and Elite Lizards for each level attained after 2nd level.",
@@ -227,8 +201,7 @@
 			}
 		}
 	},
-	"core:korbac":
-	{
+	"core:korbac" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Serpent Flies, Dragon Flies, and Chaotic Dragon Flies for each level attained after 3rd level.",
@@ -237,8 +210,7 @@
 			}
 		}
 	},
-	"core:bron":
-	{
+	"core:bron" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Basilisks, Greater Basilisks, and Lava Basilisks for each level attained after 4th level.",
@@ -247,8 +219,7 @@
 			}
 		}
 	},
-	"core:alkin":
-	{
+	"core:alkin" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gorgons, Mighty Gorgons, and Catoblepases for each level attained after 5th level.",
@@ -257,8 +228,7 @@
 			}
 		}
 	},
-	"core:broghild":
-	{
+	"core:broghild" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wyverns, Wyvern Monarchs, and Acid Wyverns for each level attained after 6th level.",
@@ -267,8 +237,7 @@
 			}
 		}
 	},
-	"core:xeron":
-	{
+	"core:xeron" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Devils, Arch Devils, and Hell Barons receive +4 Attack, +2 Defense, and +1 Speed.",
@@ -277,8 +246,7 @@
 			}
 		}
 	},
-	"core:ignatius":
-	{
+	"core:ignatius" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Imps, Familiars, and Vermins for each level attained after 1st level.",
@@ -287,8 +255,7 @@
 			}
 		}
 	},
-	"core:calh":
-	{
+	"core:calh" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Gogs, Magogs, and Winged Magogs for each level attained after 2nd level.",
@@ -297,8 +264,7 @@
 			}
 		}
 	},
-	"core:fiona":
-	{
+	"core:fiona" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Hell Hounds, Cerberi, and Astral Cerberi for each level attained after 3rd level.",
@@ -307,8 +273,7 @@
 			}
 		}
 	},
-	"core:marius":
-	{
+	"core:marius" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Demons, Horned Demons, and Sharp-Horned Demons for each level attained after 4th level.",
@@ -317,8 +282,7 @@
 			}
 		}
 	},
-	"core:marius":
-	{
+	"core:marius" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Pit Fiends, Pit Lords, and Pit Masters for each level attained after 5th level.",
@@ -327,8 +291,7 @@
 			}
 		}
 	},
-	"core:rashka":
-	{
+	"core:rashka" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Efreet, Efreet Sultans, and Efreet Rajahs for each level attained after 6th level.",
@@ -337,8 +300,7 @@
 			}
 		}
 	},
-	"core:galthran":
-	{
+	"core:galthran" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Skeletons, Skeleton Warriors, and Skeleton Knights for each level attained after 1st level.",
@@ -347,8 +309,7 @@
 			}
 		}
 	},
-	"core:straker":
-	{
+	"core:straker" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Walking Dead, Zombies, and Ghouls for each level attained after 2nd level.",
@@ -357,8 +318,7 @@
 			}
 		}
 	},
-	"core:charna":
-	{
+	"core:charna" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wights, Wraiths, and Specters for each level attained after 3rd level.",
@@ -367,8 +327,7 @@
 			}
 		}
 	},
-	"core:vokial":
-	{
+	"core:vokial" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Vampires, Vampire Lords, and Nosferatu for each level attained after 4th level.",
@@ -377,8 +336,7 @@
 			}
 		}
 	},
-	"core:moandor":
-	{
+	"core:moandor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Liches, Power Liches, and Lich Kings for each level attained after 5th level.",
@@ -387,8 +345,7 @@
 			}
 		}
 	},
-	"core:tamika":
-	{
+	"core:tamika" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any lack Knights, Dread Knights, and Death Knights for each level attained after 6th level.",
@@ -397,8 +354,7 @@
 			}
 		}
 	},
-	"core:undeadHaart":
-	{
+	"core:undeadHaart" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Black Knights, Dread Knights, and Death Knights receive +5 Att, +5 Def, and +10 Dmg.",
@@ -407,8 +363,7 @@
 			}
 		}
 	},
-	"core:undeadHaart":
-	{
+	"core:undeadHaart" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Black Knights, Dread Knights, and Death Knights receive +5 Att, +5 Def, and +10 Dmg.",
@@ -417,8 +372,7 @@
 			}
 		}
 	},
-	"core:dracon":
-	{
+	"core:dracon" : {
 		"specialty" : {
 			"base" : {
 				"addInfo" : "creature.enchanter",
@@ -453,8 +407,7 @@
 			}
 		}
 	},
-	"core:piquedram":
-	{
+	"core:piquedram" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Stone Gargoyles, Obsidian Gargoyles, and Marble Gargoyles for each level attained after 2nd level.",
@@ -463,8 +416,7 @@
 			}
 		}
 	},
-	"core:josephine":
-	{
+	"core:josephine" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Stone Golems, Iron Golems, and Mithril Golems for each level attained after 3rd level.",
@@ -473,8 +425,7 @@
 			}
 		}
 	},
-	"core:theodorus":
-	{
+	"core:theodorus" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Magi, Arch Magi, and Supreme Arch Magi for each level attained after 4th level.",
@@ -483,8 +434,7 @@
 			}
 		}
 	},
-	"core:iona":
-	{
+	"core:iona" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Genies, Master Genies, and Arcane Genies for each level attained after 5th level.",
@@ -493,8 +443,7 @@
 			}
 		}
 	},
-	"core:thane":
-	{
+	"core:thane" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Genies, Master Genies, and Arcane Genies for each level attained after 5th level.",
@@ -503,8 +452,7 @@
 			}
 		}
 	},
-	"core:fafner":
-	{
+	"core:fafner" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Nagas, Naga Queens, and Naga Empresses for each level attained after 6th level.",
@@ -513,8 +461,7 @@
 			}
 		}
 	},
-	"core:gelu":
-	{
+	"core:gelu" : {
 		"specialty" : {
 			"base" : {
 				"addInfo" : "creature.sharpshooter",
@@ -549,8 +496,7 @@
 			}
 		}
 	},
-	"core:ufretin":
-	{
+	"core:ufretin" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Dwarves, Battle Dwarves, and Berserker Dwarves for each level attained after 2nd level.",
@@ -559,8 +505,7 @@
 			}
 		}
 	},
-	"core:ivor":
-	{
+	"core:ivor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wood Elves, Grand Elves, or Noble Elves for each level attained after 3rd level.",
@@ -569,8 +514,7 @@
 			}
 		}
 	},
-	"core:aeris":
-	{
+	"core:aeris" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Pegasi, Silver Pegasi, and Golden Pegasi for each level attained after 4th level.",
@@ -579,8 +523,7 @@
 			}
 		}
 	},
-	"core:ryland":
-	{
+	"core:ryland" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Dendroid Guards, Dendroid Soldiers, and Elder Dendroids for each level attained after 5th level.",
@@ -589,8 +532,7 @@
 			}
 		}
 	},
-	"core:clancy":
-	{
+	"core:clancy" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Unicorns, War Unicorns, and Legendary Unicorns for each level attained after 6th level.",
@@ -599,8 +541,7 @@
 			}
 		}
 	},
-	"core:kilgor":
-	{
+	"core:kilgor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Behemoths, Ancient Behemoths, and Ghost Behemoths receive +5 Att, +5 Def, +10 Dmg.",
@@ -609,8 +550,7 @@
 			}
 		}
 	},
-	"core:gretchin":
-	{
+	"core:gretchin" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Goblins, Hobgoblins, and Hobgoblin Overlords for each level attained after 1st level.",
@@ -619,8 +559,7 @@
 			}
 		}
 	},
-	"core:tyraxor":
-	{
+	"core:tyraxor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Wolf Riders, Wolf Raiders, and Wolf Captains for each level attained after 2nd level.",
@@ -629,8 +568,7 @@
 			}
 		}
 	},
-	"core:jabarkas":
-	{
+	"core:jabarkas" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Orcs, Orc Chieftains, and Orc Leaders for each level attained after 3rd level.",
@@ -639,8 +577,7 @@
 			}
 		}
 	},
-	"core:vey":
-	{
+	"core:vey" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ogres, Ogre Magi, and Elder Ogres for each level attained after 4th level.",
@@ -649,8 +586,7 @@
 			}
 		}
 	},
-	"core:krellion":
-	{
+	"core:krellion" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ogres, Ogre Magi, and Elder Ogres for each level attained after 4th level.",
@@ -659,8 +595,7 @@
 			}
 		}
 	},
-	"core:boragus":
-	{
+	"core:boragus" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ogres, Ogre Magi, and Elder Ogres for each level attained after 4th level.",
@@ -669,8 +604,7 @@
 			}
 		}
 	},
-	"core:shiva":
-	{
+	"core:shiva" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Rocs, Thunderbirds, and Lightningbirds for each level attained after 5th level.",
@@ -679,8 +613,7 @@
 			}
 		}
 	},
-	"core:yog":
-	{
+	"core:yog" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Cyclopes, Cyclops Kings, and Cyclops Emperors for each level attained after 6th level.",

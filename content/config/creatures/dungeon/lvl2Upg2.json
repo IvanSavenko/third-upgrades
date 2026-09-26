@@ -1,5 +1,5 @@
 {
-	"tumHarpySanguinary": {
+	"tumHarpySanguinary" : {
 		"name" : {
 			"singular" : "Harpy Sanguinary",
 			"plural" : "Harpy Sanguinaries"
@@ -38,8 +38,7 @@
 			"fearless" : {
 				"type" : "FEARLESS"
 			},
-			"age" :
-			{
+			"age" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.age",
 				"val" : 20
@@ -47,7 +46,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/dungeon/battle/CR227",
-			"map" : 	  "creatures/dungeon/map/AVWCR227",
+			"map" : "creatures/dungeon/map/AVWCR227",
 			"iconSmall" : "creatures/dungeon/iconsSmall/CPrS227X",
 			"iconLarge" : "creatures/dungeon/iconsBig/CPrL227X",
 			"animationTime" : {

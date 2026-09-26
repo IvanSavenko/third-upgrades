@@ -1,25 +1,20 @@
 {
-	"tumSharpHornedDemon":
-	{
-		"name" :
-		{
+	"tumSharpHornedDemon" : {
+		"name" : {
 			"plural" : "Sharp-Horned Demons",
 			"singular" : "Sharp-Horned Demon"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 14,
 			"min" : 10
 		},
 		"faction" : "inferno",
 		"attack" : 10,
 		"defense" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 300
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 10,
 			"min" : 7
 		},
@@ -29,81 +24,124 @@
 		"speed" : 8,
 		"fightValue" : 720,
 		"aiValue" : 720,
-		"graphics" :
-		{
-			"animation" : 	"creatures/inferno/battle/CR216",
-			"map" : 		"creatures/inferno/map/AVWCR216",
-			"iconSmall" : 	"creatures/inferno/iconsSmall/CPrs216X",
-			"iconLarge" : 	"creatures/inferno/iconsBig/CPrL216X",
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/CR216",
+			"map" : "creatures/inferno/map/AVWCR216",
+			"iconSmall" : "creatures/inferno/iconsSmall/CPrs216X",
+			"iconLarge" : "creatures/inferno/iconsBig/CPrL216X",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"doubleWide" : false,
-		"sound" :
-		{
-			"attack": "DHDMATTK.wav",
-			"defend": "DHDMDFND.wav",
-			"killed": "DHDMKILL.wav",
-			"move": "DHDMMOVE.wav",
-			"wince": "DHDMWNCE.wav"
+		"sound" : {
+			"attack" : "DHDMATTK.wav",
+			"defend" : "DHDMDFND.wav",
+			"killed" : "DHDMKILL.wav",
+			"move" : "DHDMMOVE.wav",
+			"wince" : "DHDMWNCE.wav"
 		},
-		"abilities" :
-		{
-			"plusAttack" :
-			{
+		"abilities" : {
+			"plusAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"deathBlow" :
-			{
+			"deathBlow" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE", //dopisać unlimited retaliation
 				"val" : 15
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" : 
-				{
-					"type" : "GENERAL_DAMAGE_REDUCTION", 
-					"subtype" : "damageTypeRanged"			
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeRanged"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 10, 15, 20, 25, 30 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					10,
+					15,
+					20,
+					25,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.protectFire"
 				},
-				"values" : [1, 1, 1, 1, 1, 1, 2, 2, 2, 2]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type" : "DOUBLE_DAMAGE_CHANCE",
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values" : [0, 0, 5, 10, 15, 20, 25, 30, 40, 50]
+				"values" : [
+					0,
+					0,
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARLESS"
 				},
-				"values" : [false, false, false, false, false, false, false, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
-	}	
+	}
 }
