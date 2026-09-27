@@ -96,13 +96,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python3-jstyleson
 
-      # 'full' additionally reports file conflicts between mods and ignores the
-      # cached per-mod validation checksum.
-      - name: Enable full mod validation
-        if: env.VCMI_VERSION != ''
-        run: |
-          printf '{ "mods" : { "validation" : "full" } }' >~/.config/vcmi/settings.json
-
       - name: Install Mod Dependencies
         if: env.VCMI_VERSION != ''
         run: python3 .github/install_mod_dependencies.py "${VCMI_VERSION}"

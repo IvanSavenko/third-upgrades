@@ -212,7 +212,6 @@
 				"extraCapitol" : {
 					"name" : "Tribe",
 					"description" : "Tribe mark unlocks 3rd level structures to build.",
-					"id" : 29,
 					"requires" : [
 						"allOf",
 						[
@@ -234,7 +233,6 @@
 						"horde1Upgr"
 					],
 					"upgrades" : "dwellingUp2Lvl1",
-					"id" : 20,
 					"mode" : "auto"
 				},
 				"dwellingUp2Lvl1" : {
@@ -246,7 +244,6 @@
 						"ore" : 10,
 						"gold" : 1200
 					},
-					"id" : 44,
 					"requires" : [
 						"allOf",
 						[
@@ -266,7 +263,6 @@
 						"ore" : 10,
 						"gold" : 2000
 					},
-					"id" : 45,
 					"requires" : [
 						"allOf",
 						[
@@ -287,7 +283,6 @@
 						"ore" : 7,
 						"gold" : 2000
 					},
-					"id" : 46,
 					"requires" : [
 						"allOf",
 						[
@@ -309,7 +304,6 @@
 						"gems" : 5,
 						"gold" : 4000
 					},
-					"id" : 47,
 					"requires" : [
 						"allOf",
 						[
@@ -333,7 +327,6 @@
 					"requires" : [
 						"castle"
 					],
-					"id" : 48,
 					"upgrades" : "dwellingUpLvl5"
 				},
 				"dwellingUp2Lvl6" : {
@@ -349,7 +342,6 @@
 					"requires" : [
 						"dwellingUp2Lvl5"
 					],
-					"id" : 49,
 					"upgrades" : "dwellingUpLvl6"
 				},
 				"dwellingUp2Lvl7" : {
@@ -371,7 +363,6 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"id" : 50,
 					"upgrades" : "dwellingUpLvl7"
 				}
 			}

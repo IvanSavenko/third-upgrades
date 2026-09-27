@@ -282,7 +282,7 @@
 			}
 		}
 	},
-	"core:marius" : {
+	"core:nymus" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Pit Fiends, Pit Lords, and Pit Masters for each level attained after 5th level.",
@@ -351,15 +351,6 @@
 				"description" : "Increases the Attack and Defense skills of any lack Knights, Dread Knights, and Death Knights for each level attained after 6th level.",
 				"name" : "Vampires",
 				"tooltip" : "Creature Bonus: Vampires"
-			}
-		}
-	},
-	"core:undeadHaart" : {
-		"texts" : {
-			"specialty" : {
-				"description" : "Black Knights, Dread Knights, and Death Knights receive +5 Att, +5 Def, and +10 Dmg.",
-				"name" : "Black Knights",
-				"tooltip" : "Creature Bonus: Black Knights"
 			}
 		}
 	},

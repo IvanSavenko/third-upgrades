@@ -99,7 +99,7 @@
 					"z" : 8
 				},
 				"hordePhoenix" : {
-					"animation" : "hota/phoenixHorde.def",
+					"animation" : "hota/TBELHrd3.def",
 					"border" : "hota/phoenixHordeBorder.png",
 					"area" : "hota/phoenixHordeArea.png",
 					"x" : 685,
@@ -107,7 +107,7 @@
 					"z" : 1
 				},
 				"hordePhoenixUpgr" : {
-					"animation" : "hota/phoenixHordeUpgraded.def",
+					"animation" : "hota/TBELHrd4.def",
 					"border" : "hota/phoenixHordeUpgradedBorder.png",
 					"area" : "hota/phoenixHordeUpgradedArea.png",
 					"x" : 685,
@@ -115,7 +115,7 @@
 					"z" : 1
 				},
 				"hordePhoenixUpgr2" : {
-					"animation" : "hota/phoenixHordeUpgraded.def",
+					"animation" : "hota/TBELHrd4.def",
 					"border" : "hota/phoenixHordeUpgradedBorder.png",
 					"area" : "hota/phoenixHordeUpgradedArea.png",
 					"x" : 685,
@@ -368,7 +368,6 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"id" : 44,
 					"upgrades" : "dwellingUpLvl1"
 				},
 				"dwellingUp2Lvl2" : {
@@ -382,7 +381,6 @@
 						"gems" : 2,
 						"gold" : 3000
 					},
-					"id" : 45,
 					"requires" : [
 						"allOf",
 						[
@@ -403,7 +401,6 @@
 						"ore" : 10,
 						"gold" : 3500
 					},
-					"id" : 46,
 					"requires" : [
 						"allOf",
 						[
@@ -479,7 +476,6 @@
 						"ore" : 10,
 						"gold" : 4000
 					},
-					"id" : 47,
 					"requires" : [
 						"allOf",
 						[
@@ -506,7 +502,6 @@
 						"sulfur" : 5,
 						"gold" : 3000
 					},
-					"id" : 48,
 					"requires" : [
 						"dwellingUp2Lvl4"
 					],
@@ -525,7 +520,6 @@
 						"gems" : 5,
 						"gold" : 6000
 					},
-					"id" : 49,
 					"requires" : [
 						"allOf",
 						[
@@ -550,7 +544,6 @@
 						"ore" : 20,
 						"gold" : 25000
 					},
-					"id" : 50,
 					"requires" : [
 						"allOf",
 						[

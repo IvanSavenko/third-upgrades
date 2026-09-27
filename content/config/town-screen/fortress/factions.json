@@ -213,7 +213,6 @@
 				"extraCapitol" : {
 					"name" : "Marsh",
 					"description" : "Marsh mark unlocks 3rd level structures to build.",
-					"id" : 29,
 					"requires" : [
 						"allOf",
 						[
@@ -237,7 +236,6 @@
 						"horde1Upgr"
 					],
 					"upgrades" : "dwellingUp2Lvl1",
-					"id" : 23,
 					"mode" : "auto"
 				},
 
@@ -257,8 +255,7 @@
 						"wood" : 20,
 						"gold" : 1400
 					},
-					"upgrades" : "dwellingUpLvl1",
-					"id" : 44
+					"upgrades" : "dwellingUpLvl1"
 				},
 				"dwellingUp2Lvl2" : {
 					"description" : "The Lizard Den allows you yo recruit Elite Lizards.",
@@ -278,8 +275,7 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"upgrades" : "dwellingUpLvl2",
-					"id" : 45
+					"upgrades" : "dwellingUpLvl2"
 				},
 				"dwellingUp2Lvl3" : {
 					"description" : "The Serpent Fly Hive allows you to recruit Chaotic Dragon Flies.",
@@ -300,8 +296,7 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"upgrades" : "dwellingUpLvl3",
-					"id" : 46
+					"upgrades" : "dwellingUpLvl3"
 				},
 				"dwellingUp2Lvl4" : {
 					"description" : "The Basilisk Pit allows you to recruit Lava Basilisks.",
@@ -315,8 +310,7 @@
 					"requires" : [
 						"dwellingUp2Lvl3"
 					],
-					"upgrades" : "dwellingUpLvl4",
-					"id" : 47
+					"upgrades" : "dwellingUpLvl4"
 				},
 				"dwellingUp2Lvl5" : {
 					"description" : "The Gorgon Lair allows you to recruit Catoblepasses.",
@@ -338,8 +332,7 @@
 							"special1"
 						]
 					],
-					"upgrades" : "dwellingUpLvl5",
-					"id" : 48
+					"upgrades" : "dwellingUpLvl5"
 				},
 				"dwellingUp2Lvl6" : {
 					"description" : "The Wyvern Nest allows you to recruit Acid Wyverns.",
@@ -359,8 +352,7 @@
 							"dwellingUp2Lvl5"
 						]
 					],
-					"upgrades" : "dwellingUpLvl6",
-					"id" : 49
+					"upgrades" : "dwellingUpLvl6"
 				},
 				"dwellingUp2Lvl7" : {
 					"description" : "The Hydra Pond allows you to recruit Hell Hydras.",
@@ -374,8 +366,7 @@
 					"requires" : [
 						"dwellingUp2Lvl6"
 					],
-					"upgrades" : "dwellingUpLvl7",
-					"id" : 50
+					"upgrades" : "dwellingUpLvl7"
 				}
 			}
 		}

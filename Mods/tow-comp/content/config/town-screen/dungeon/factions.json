@@ -246,7 +246,6 @@
 				"extraCapitol" : {
 					"name" : "Dracos",
 					"description" : "Dracos mark unlocks 3rd level structures to build.",
-					"id" : 29,
 					"requires" : [
 						"allOf",
 						[
@@ -265,7 +264,6 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 24,
 					"upgrades" : "dwellingUp2Lvl1",
 					"requires" : [
 						"horde1Upgr"
@@ -300,7 +298,6 @@
 						"wood" : 15,
 						"gold" : 1400
 					},
-					"id" : 44,
 					"requires" : [
 						"allOf",
 						[
@@ -321,7 +318,6 @@
 						"crystal" : 2,
 						"gold" : 2000
 					},
-					"id" : 45,
 					"requires" : [
 						"allOf",
 						[
@@ -346,7 +342,6 @@
 						"gems" : 2,
 						"gold" : 2000
 					},
-					"id" : 46,
 					"requires" : [
 						"allOf",
 						[
@@ -367,7 +362,6 @@
 						"ore" : 10,
 						"gold" : 3500
 					},
-					"id" : 47,
 					"requires" : [
 						"dwellingUp2Lvl3"
 					],
@@ -382,7 +376,6 @@
 						"gems" : 15,
 						"gold" : 7000
 					},
-					"id" : 48,
 					"requires" : [
 						"mageGuild3"
 					],
@@ -472,7 +465,6 @@
 						"sulfur" : 10,
 						"gold" : 6000
 					},
-					"id" : 49,
 					"requires" : [
 						"allOf",
 						[
@@ -500,7 +492,6 @@
 						"sulfur" : 40,
 						"gold" : 30000
 					},
-					"id" : 50,
 					"requires" : [
 						"allOf",
 						[

@@ -219,7 +219,6 @@
 				"extraCapitol" : {
 					"name" : "Chaos",
 					"description" : "Chaos mark unlocks 3rd level structures to build.",
-					"id" : 29,
 					"requires" : [
 						"allOf",
 						[
@@ -254,7 +253,6 @@
 						"ore" : 5,
 						"gold" : 1300
 					},
-					"id" : 44,
 					"requires" : [
 						"allOf",
 						[
@@ -275,7 +273,6 @@
 						"mercury" : 5,
 						"gold" : 2000
 					},
-					"id" : 45,
 					"requires" : [
 						"allOf",
 						[
@@ -310,7 +307,6 @@
 						"sulfur" : 5,
 						"gold" : 3000
 					},
-					"id" : 46,
 					"requires" : [
 						"allOf",
 						[
@@ -333,7 +329,6 @@
 						"ore" : 10,
 						"gold" : 4000
 					},
-					"id" : 47,
 					"upgrades" : "dwellingUpLvl4"
 				},
 				"dwellingUp2Lvl5" : {
@@ -345,7 +340,6 @@
 						"sulfur" : 5,
 						"gold" : 6000
 					},
-					"id" : 48,
 					"requires" : [
 						"allOf",
 						[
@@ -368,7 +362,6 @@
 						"gems" : 8,
 						"gold" : 7000
 					},
-					"id" : 49,
 					"requires" : [
 						"dwellingUp2Lvl5"
 					],
@@ -384,7 +377,6 @@
 						"ore" : 15,
 						"gold" : 35000
 					},
-					"id" : 50,
 					"requires" : [
 						"allOf",
 						[

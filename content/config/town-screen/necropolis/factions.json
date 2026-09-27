@@ -253,8 +253,7 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"upgrades" : "dwellingUpLvl1",
-					"id" : 44
+					"upgrades" : "dwellingUpLvl1"
 				},
 				"horde2" : {
 					"description" : "The Unearthed Graves increase Skeleton Knights production by 6 per week.",
@@ -267,7 +266,6 @@
 						"horde1Upgr"
 					],
 					"upgrades" : "dwellingUp2Lvl1",
-					"id" : 23,
 					"mode" : "auto"
 				},
 				"dwellingUp2Lvl2" : {
@@ -288,8 +286,7 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"upgrades" : "dwellingUpLvl2",
-					"id" : 45
+					"upgrades" : "dwellingUpLvl2"
 				},
 				"dwellingUp2Lvl3" : {
 					"description" : "The Tomb of Souls allows you to recruit Specters.",
@@ -310,8 +307,7 @@
 							"dwellingUpLvl6"
 						]
 					],
-					"upgrades" : "dwellingUpLvl3",
-					"id" : 46
+					"upgrades" : "dwellingUpLvl3"
 				},
 				"dwellingUp2Lvl4" : {
 					"description" : "The Estate allows you to recruit Nosferatu.",
@@ -327,8 +323,7 @@
 					"requires" : [
 						"dwellingUp2Lvl7"
 					],
-					"upgrades" : "dwellingUpLvl4",
-					"id" : 47
+					"upgrades" : "dwellingUpLvl4"
 				},
 				"dwellingUp2Lvl5" : {
 					"description" : "The Mausoleum allows you to recruit Lich Kings.",
@@ -341,8 +336,7 @@
 					"upgrades" : "dwellingUpLvl5",
 					"requires" : [
 						"dwellingUp2Lvl4"
-					],
-					"id" : 48
+					]
 				},
 				"dwellingUp2Lvl6" : {
 					"description" : "The Hall of Darkness allows you to recruit Death Knights.",
@@ -360,8 +354,7 @@
 					"upgrades" : "dwellingUpLvl6",
 					"requires" : [
 						"dwellingUp2Lvl5"
-					],
-					"id" : 49
+					]
 				},
 				"dwellingUp2Lvl7" : {
 					"description" : "The Dragon Vault allows you to recruit Blood Dragons.",
@@ -376,7 +369,6 @@
 						"gems" : 5,
 						"gold" : 25000
 					},
-					"id" : 50,
 					"requires" : [
 						"special3"
 					],
